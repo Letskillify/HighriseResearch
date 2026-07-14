@@ -1,0 +1,74 @@
+# 📈 HighRise Research
+
+HighRise Research is a premium SEBI Registered Research Analyst firm dedicated to providing institutional-grade market insights, high-accuracy trading calls, and comprehensive equity research for retail investors.
+
+## 🚀 About The Project
+
+This project is a modern, high-performance React application designed for **HighRise Research**. It features a cinematic User Interface with smooth animations, real-time-focused data presentation, and a professional aesthetic that reflects the trust and precision required in the financial markets.
+
+### Key Highlights
+
+- ⚖️ **SEBI Registered Compliance** – Built with regulatory standards in mind, featuring clear disclosures and investor charter access.
+- 📊 **Advanced Market Analytics** – Showcasing research across Index Options, Equity Cash, and Stock Options.
+- ⚡ **Performance Optimized** – Built with Vite for lightning-fast loading speeds and smooth user experience.
+- 📱 **Fully Responsive** – Optimized for seamless viewing on desktops, tablets, and mobile devices.
+- 🛡️ **Risk-First Approach** – Emphasis on capital protection and institutional-grade risk management strategies.
+
+## 🛠️ Built With
+
+- **React** – Component-based architecture for a modular and maintainable codebase.
+- **Vite** – Next-generation frontend tooling for fast builds and hot module replacement.
+- **Tailwind CSS** – Utility-first CSS framework for modern, responsive styling.
+- **Framer Motion** – Production-ready motion library for fluid animations and micro-interactions.
+- **Lucide React** – Minimal and professional icon set.
+- **Firebase** – Robust backend for data management and real-time updates.
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/                 # Brand assets, images, and media
+├── Components/
+│   ├── home/               # Homepage specific components (Hero, Stats, Testimonials, etc.)
+│   ├── Header.jsx          # Dynamic navigation system
+│   ├── Footer.jsx          # Comprehensive brand footer with legal links
+│   └── ...
+├── pages/                  # Application pages (Home, About, Services, Legal, etc.)
+├── data/                   # Centralized research and service data
+├── context/                # Global application state management
+├── App.jsx                 # Core routing and layout configuration
+└── main.jsx                # Application entry point
+```
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/highrise-research.git
+   cd highrise-research
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**HighRise Research** | SEBI Registration No: INH000009427  
+📍 A-172 Kanak Avenue Colony, Lasudiya Mori, Indore  
+📞 +91 98272 16004  
+📧 support@highriseresearch.com
+
+*Investment in securities market are subject to market risks. Read all the related documents carefully before investing.*
