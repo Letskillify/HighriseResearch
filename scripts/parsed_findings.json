@@ -1,0 +1,911 @@
+[
+  {
+    "rule": "Buttons must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: For all UI components: provide an accessible name via &lt;label&gt;, aria-label, or aria-labelledby; use the correct ARIA role (or native HTML element with implicit role); communicate current state and properties: aria-expanded, aria-checked, aria-selected, aria-pressed, aria-invalid, aria-disabled; and ensure all id values are unique so aria-labelledby and aria-describedby resolve correctly. Use native HTML elements wherever possible as they carry built-in accessibility semantics.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Buttons must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: For all UI components: provide an accessible name via &lt;label&gt;, aria-label, or aria-labelledby; use the correct ARIA role (or native HTML element with implicit role); communicate current state and properties: aria-expanded, aria-checked, aria-selected, aria-pressed, aria-invalid, aria-disabled; and ensure all id values are unique so aria-labelledby and aria-describedby resolve correctly. Use native HTML elements wherever possible as they carry built-in accessibility semantics.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has at most one contentinfo landmark",
+    "code": "&lt;footer class=&quot;py-10 bg-slate-900 text-white border-t border-slate-800&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "Document should have one main landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has a main landmark",
+    "code": "&lt;html lang=&quot;en&quot; style=&quot;scroll-behavior: auto;&quot;&gt;",
+    "selector": "html",
+    "pages": ""
+  },
+  {
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure landmarks are unique",
+    "code": "&lt;footer class=&quot;py-10 bg-slate-900 text-white border-t border-slate-800&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Buttons must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: For all UI components: provide an accessible name via &lt;label&gt;, aria-label, or aria-labelledby; use the correct ARIA role (or native HTML element with implicit role); communicate current state and properties: aria-expanded, aria-checked, aria-selected, aria-pressed, aria-invalid, aria-disabled; and ensure all id values are unique so aria-labelledby and aria-describedby resolve correctly. Use native HTML elements wherever possible as they carry built-in accessibility semantics.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "Document should have one main landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has a main landmark",
+    "code": "&lt;html lang=&quot;en&quot; style=&quot;scroll-behavior: auto;&quot;&gt;",
+    "selector": "html",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has at most one contentinfo landmark",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "Document should have one main landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has a main landmark",
+    "code": "&lt;html lang=&quot;en&quot; style=&quot;scroll-behavior: auto;&quot;&gt;",
+    "selector": "html",
+    "pages": ""
+  },
+  {
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure landmarks are unique",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has at most one contentinfo landmark",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "Document should have one main landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has a main landmark",
+    "code": "&lt;html lang=&quot;en&quot; style=&quot;scroll-behavior: auto;&quot;&gt;",
+    "selector": "html",
+    "pages": ""
+  },
+  {
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure landmarks are unique",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has at most one contentinfo landmark",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "Document should have one main landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has a main landmark",
+    "code": "&lt;html lang=&quot;en&quot; style=&quot;scroll-behavior: auto;&quot;&gt;",
+    "selector": "html",
+    "pages": ""
+  },
+  {
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure landmarks are unique",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Form elements must have labels",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: For all UI components: provide an accessible name via &lt;label&gt;, aria-label, or aria-labelledby; use the correct ARIA role (or native HTML element with implicit role); communicate current state and properties: aria-expanded, aria-checked, aria-selected, aria-pressed, aria-invalid, aria-disabled; and ensure all id values are unique so aria-labelledby and aria-describedby resolve correctly. Use native HTML elements wherever possible as they carry built-in accessibility semantics.",
+    "code": "&lt;input required=&quot;&quot; class=&quot;\n    w-full px-6 py-4 rounded-2xl bg-white border transition-all duration-300 outline-none font-bold text-slate-700\n    border-slate-200 hover:border-slate-300\n   pl-14&quot; type=&quot;date&quot; value=&quot;&quot; name=&quot;dob&quot;&gt;",
+    "selector": "input[type=&quot;date&quot;]",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has at most one contentinfo landmark",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "Document should have one main landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has a main landmark",
+    "code": "&lt;html lang=&quot;en&quot; style=&quot;scroll-behavior: auto;&quot;&gt;",
+    "selector": "html",
+    "pages": ""
+  },
+  {
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure landmarks are unique",
+    "code": "&lt;footer class=&quot;py-10 bg-white border-t border-slate-100&quot;&gt;",
+    "selector": ".min-h-screen &gt; footer",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Document should have one main landmark",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the document has a main landmark",
+    "code": "&lt;html lang=&quot;en&quot; style=&quot;scroll-behavior: auto;&quot;&gt;",
+    "selector": "html",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  },
+  {
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Ensure a minimum contrast ratio of 4.5:1 for normal text (below 18pt / 14pt bold) and 3:1 for large text (18pt+ or 14pt+ bold) against its background. Use a colour contrast analyser to verify all text. Inactive UI components and decorative text are exempt. Avoid light grey text on white backgrounds.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Links must have discernible text",
+    "impact": "",
+    "desc": "",
+    "fix": "How to fix: Use descriptive link text that clearly indicates the destination or purpose out of context. Replace &quot;click here&quot;, &quot;read more&quot;, &quot;more&quot;, &quot;here&quot; with descriptive text like &quot;Download Annual Report 2024 (PDF)&quot;. Use aria-label or aria-labelledby to supplement vague visible text when changing visible text is not possible.",
+    "code": "",
+    "selector": "",
+    "pages": ""
+  },
+  {
+    "rule": "Heading levels should only increase by one",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure the order of headings is semantically correct",
+    "code": "&lt;h4 class=&quot;text-sm font-bold text-white uppercase tracking-widest&quot;&gt;Company&lt;/h4&gt;",
+    "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+    "pages": ""
+  },
+  {
+    "rule": "All page content should be contained by landmarks",
+    "impact": "",
+    "desc": "",
+    "fix": "Why it fails: Ensure all page content is contained by landmarks",
+    "code": "&lt;div class=&quot;absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block&quot;&gt;Chat with us!&lt;/div&gt;",
+    "selector": ".right-full",
+    "pages": ""
+  }
+]

@@ -244,7 +244,7 @@ const Hero = () => {
               </motion.div>
               <div>
                 <p className="text-xs font-black text-slate-900">Nifty 50 Expert</p>
-                <p className="text-[10px] text-slate-400 font-bold uppercase">Real-time Analysis</p>
+                <p className="text-[10px] text-slate-600 font-bold uppercase">Real-time Analysis</p>
               </div>
             </motion.div>
           </motion.div>

@@ -94,9 +94,9 @@ const Contact = () => {
             
               <h3 className="text-4xl lg:text-5xl font-black text-slate-900 tracking-tight mb-6">
                 Let’s Discuss Your <br />
-                <span className="text-slate-400 font-light text-4xl">Research Requirements</span>
+                <span className="text-slate-600 font-light text-4xl">Research Requirements</span>
               </h3>
-              <p className="text-slate-500 font-medium leading-relaxed max-w-md">
+              <p className="text-slate-600 font-medium leading-relaxed max-w-md">
                 Have questions about our research services? Our team is here to assist you with the information you need.
               </p>
             </motion.div>
@@ -127,7 +127,7 @@ const Contact = () => {
                     {item.icon}
                   </motion.div>
                   <div>
-                    <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{item.label}</p>
+                    <p className="text-[10px] font-black text-slate-600 uppercase tracking-widest">{item.label}</p>
                     <p className="text-slate-900 font-bold">{item.value}</p>
                   </div>
                 </motion.div>
@@ -165,8 +165,7 @@ const Contact = () => {
               transition={{ type: 'spring', stiffness: 300 }}
             >
               <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Name Input */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">                  {/* Name Input */}
                   <motion.div
                     className="space-y-2"
                     initial={{ opacity: 0, y: 10 }}
@@ -174,8 +173,9 @@ const Contact = () => {
                     transition={{ delay: 0.1 }}
                     viewport={{ once: true }}
                   >
-                    <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Full Name</label>
+                    <label htmlFor="home-form-name" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Full Name</label>
                     <motion.input
+                      id="home-form-name"
                       type="text"
                       name="fullName"
                       value={formData.fullName}
@@ -196,8 +196,9 @@ const Contact = () => {
                     transition={{ delay: 0.15 }}
                     viewport={{ once: true }}
                   >
-                    <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Phone Number</label>
+                    <label htmlFor="home-form-phone" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Phone Number</label>
                     <motion.input
+                      id="home-form-phone"
                       type="tel"
                       name="phone"
                       value={formData.phone}
@@ -220,8 +221,9 @@ const Contact = () => {
                   transition={{ delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Email Address</label>
+                  <label htmlFor="home-form-email" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Email Address</label>
                   <motion.input
+                    id="home-form-email"
                     type="email"
                     name="email"
                     value={formData.email}
@@ -243,8 +245,9 @@ const Contact = () => {
                   transition={{ delay: 0.25 }}
                   viewport={{ once: true }}
                 >
-                  <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Your Message</label>
+                  <label htmlFor="home-form-msg" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Your Message</label>
                   <motion.textarea
+                    id="home-form-msg"
                     rows="4"
                     name="message"
                     value={formData.message}
@@ -294,13 +297,13 @@ const Contact = () => {
                 </AnimatePresence>
 
                 <motion.p
-                  className="text-center text-[11px] text-slate-400 font-medium"
+                  className="text-center text-[11px] text-slate-600 font-medium"
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ delay: 0.3 }}
                   viewport={{ once: true }}
                 >
-                  By clicking send, you agree to our <Link to="/privacy" className="text-blue-600 underline cursor-pointer">Privacy Policy</Link>.
+                  By clicking send, you agree to our <Link to="/privacy" className="text-blue-700 underline font-semibold cursor-pointer">Privacy Policy</Link>.
                 </motion.p>
               </form>
 

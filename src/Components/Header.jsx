@@ -105,7 +105,7 @@ const Navbar = () => {
       </span>
       
     </div>
-    <span className="text-[9px] font-bold tracking-wider text-slate-500 flex items-center gap-1 uppercase mt-1.5 opacity-80">
+    <span className="text-[9px] font-bold tracking-wider text-slate-600 flex items-center gap-1 uppercase mt-1.5 opacity-90">
       <ShieldCheck size={11} className="text-emerald-500" /> Research Analyst
     </span>
   </div>
@@ -209,13 +209,14 @@ const Navbar = () => {
                 to="/alerts"
                 className="hidden sm:flex items-center justify-center w-10 h-10 text-red-500 bg-red-50 hover:bg-red-100 border border-red-100 rounded-full transition-colors relative"
                 title="Security Alerts"
+                aria-label="Security Alerts"
               >
                 <ShieldAlert size={18} />
                 <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-600 rounded-full animate-pulse border-2 border-white"></span>
               </Link>
             </motion.div>
 
-            <Link to="/contact" className="hidden sm:block">
+            <Link to="/contact" className="hidden sm:block" aria-label="Contact us">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
@@ -236,6 +237,8 @@ const Navbar = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="lg:hidden relative z-50 p-2.5 text-slate-600 bg-slate-100/80 hover:bg-slate-200 rounded-xl transition-colors"
+              aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isOpen}
             >
               <motion.div
                 initial={false}
@@ -295,7 +298,7 @@ const Navbar = () => {
                 ))}
 
                 <motion.div variants={mobileItemVariants} className="pt-4 mt-2 border-t border-slate-100 px-2 pb-2">
-                  <Link to="/contact" onClick={() => setIsOpen(false)}>
+                  <Link to="/contact" onClick={() => setIsOpen(false)} aria-label="Join Premium Access">
                     <button className="w-full flex items-center justify-center gap-2 py-4 bg-slate-900 text-white font-bold rounded-2xl shadow-xl shadow-slate-900/20 active:scale-[0.98] transition-all">
                       Join Premium Access
                     </button>

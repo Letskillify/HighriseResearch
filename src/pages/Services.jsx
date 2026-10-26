@@ -28,7 +28,7 @@ const Services = () => {
   }, []);
 
   return (
-    <main className="bg-slate-50 min-h-screen pb-12 text-slate-800">
+    <main id="main-content" className="bg-slate-50 min-h-screen pb-12 text-slate-800">
       <PageHero
         title="Our Services"
         subtitle="Explore our comprehensive range of financial research and advisory solutions."
@@ -55,6 +55,7 @@ const Services = () => {
                   <Link 
                     to={`/services/${service.id}`}
                     className="font-bold text-blue-600 hover:text-blue-800 flex items-center gap-2 group-hover:gap-3 transition-all duration-300"
+                    aria-label={`Learn more about ${service.title}`}
                   >
                     Learn More <ChevronRight size={20} />
                   </Link>

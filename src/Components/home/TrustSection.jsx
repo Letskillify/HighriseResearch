@@ -213,7 +213,7 @@ const WhyChooseUs = () => {
                 </h4>
 
                 {/* Desc */}
-                <p className="text-sm text-slate-500 leading-relaxed">
+                <p className="text-sm text-slate-600 leading-relaxed">
                   {f.desc}
                 </p>
 
@@ -241,7 +241,7 @@ const WhyChooseUs = () => {
                 <h4 className="text-2xl md:text-3xl font-bold text-white mb-2">
                   Ready to trade with precision?
                 </h4>
-                <p className="text-slate-400">
+                <p className="text-slate-300">
                   Start your premium journey today.
                 </p>
               </div>
@@ -254,6 +254,7 @@ const WhyChooseUs = () => {
                   }}
                   whileTap={{ scale: 0.95 }}
                   className="px-10 py-4 bg-blue-600 text-white rounded-full font-black text-sm uppercase tracking-widest transition-all"
+                  aria-label="Join Premium - Explore Services"
                 >
                   Join Premium
                 </motion.button>

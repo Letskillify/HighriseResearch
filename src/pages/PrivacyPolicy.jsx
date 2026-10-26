@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
   };
 
   return (
-    <div className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
+    <main id="main-content" className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
 
       {/* 1. HERO SECTION */}
       <PageHero
@@ -74,7 +74,7 @@ const PrivacyPolicy = () => {
                   We maintain rigorous physical, electronic, and procedural safeguards to protect your personal information. All your specific account information is highly password-protected.
                 </p>
               </div>
-              <div className="p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium flex items-center gap-2">
+              <div className="p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-600 font-medium flex items-center gap-2">
                 <HardDrive size={14} className="text-blue-600" /> Infrastructure is securely managed.
               </div>
             </motion.div>
@@ -172,20 +172,7 @@ const PrivacyPolicy = () => {
       </section>
 
 
-      {/* 3. SUB FOOTER */}
-      <footer className="py-10 bg-white border-t border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium text-slate-500">
-          <div>
-            <p className="text-slate-900 font-black">HighRise Research</p>
-            <p>© 2026 All Rights Reserved.</p>
-          </div>
-          <div className="flex gap-6 flex-shrink-0">
-            <p className="text-slate-400 font-bold uppercase">SEBI Registration Research Analyst</p>
-          </div>
-        </div>
-      </footer>
-
-    </div>
+    </main>
   );
 };
 

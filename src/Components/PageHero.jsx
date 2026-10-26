@@ -35,7 +35,7 @@ const PageHero = ({ title, subtitle, backgroundImage, className = '' }) => {
         {/* Premium Badge Subtitle */}
         <div className={`mb-6 flex items-center gap-3 transition-all duration-1000 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
           <div className="h-[1px] w-12 bg-blue-500" />
-          <span className="text-sm font-black uppercase tracking-[0.5em] text-blue-500/90">
+          <span className="text-sm font-black uppercase tracking-[0.5em] text-blue-400">
             {subtitle}
           </span>
         </div>

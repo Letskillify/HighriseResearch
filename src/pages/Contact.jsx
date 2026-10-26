@@ -53,7 +53,7 @@ const Contact = () => {
     }
   };
   return (
-    <main className="bg-white text-slate-900">
+    <main id="main-content" className="bg-white text-slate-900">
       <PageHero
         title="Contact Us."
         subtitle="We're here to help you navigate the markets with confidence."
@@ -83,7 +83,7 @@ const Contact = () => {
                 <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center text-white mb-4 shadow-lg shadow-blue-200">
                   <Phone size={20} />
                 </div>
-                <h4 className="text-sm font-black uppercase tracking-widest text-slate-400 mb-2">Call Us</h4>
+                <h4 className="text-sm font-black uppercase tracking-widest text-slate-600 mb-2">Call Us</h4>
                 <p className="font-bold text-slate-900">+91 90986 93674</p>
               </div>
 
@@ -91,7 +91,7 @@ const Contact = () => {
                 <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center text-white mb-4 shadow-lg shadow-blue-200">
                   <Mail size={20} />
                 </div>
-                <h4 className="text-sm font-black uppercase tracking-widest text-slate-400 mb-2">Email Us</h4>
+                <h4 className="text-sm font-black uppercase tracking-widest text-slate-600 mb-2">Email Us</h4>
                 <p className="font-bold text-slate-900">pavanraghuvanshi2014@gmail.com</p>
               </div>
 
@@ -99,7 +99,7 @@ const Contact = () => {
                 <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center text-white mb-4 shadow-lg shadow-blue-200">
                   <MapPin size={20} />
                 </div>
-                <h4 className="text-sm font-black uppercase tracking-widest text-slate-400 mb-2">Location</h4>
+                <h4 className="text-sm font-black uppercase tracking-widest text-slate-600 mb-2">Location</h4>
                 <p className="font-bold text-slate-900">A-172 Kanak Avenue Colony,</p>
                 <p className="font-bold text-slate-900">lasudiya Mori Indore</p>
               </div>
@@ -108,9 +108,9 @@ const Contact = () => {
                 <div className="w-12 h-12 rounded-2xl bg-blue-600 flex items-center justify-center text-white mb-4 shadow-lg shadow-blue-200">
                   <Clock size={20} />
                 </div>
-                <h4 className="text-sm font-black uppercase tracking-widest text-slate-400 mb-2">Market Hours</h4>
+                <h4 className="text-sm font-black uppercase tracking-widest text-slate-600 mb-2">Market Hours</h4>
                 <p className="font-bold text-slate-900">Mon - Fri: 9:00 AM - 6:00 PM</p>
-                <p className="font-bold text-slate-400 text-xs mt-1">Closed on Exchange Holidays</p>
+                <p className="font-bold text-slate-600 text-xs mt-1">Closed on Exchange Holidays</p>
               </div>
             </div>
 
@@ -132,30 +132,32 @@ const Contact = () => {
           >
             <div className="mb-10">
               <h3 className="text-2xl font-black text-slate-900 mb-2">Send us a message</h3>
-              <p className="text-slate-500 font-medium">We'll get back to you within 24 hours.</p>
+              <p className="text-slate-600 font-medium">We'll get back to you within 24 hours.</p>
             </div>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-xs uppercase tracking-widest text-slate-400 font-black">Full Name</label>
+                  <label htmlFor="contact-fullName" className="text-xs uppercase tracking-widest text-slate-700 font-black">Full Name</label>
                   <input
+                    id="contact-fullName"
                     type="text"
                     name="fullName"
                     value={formData.fullName}
                     onChange={handleChange}
-                    className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-300"
+                    className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-400"
                     placeholder="John Doe"
                     required
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-xs uppercase tracking-widest text-slate-400 font-black">Phone Number</label>
+                  <label htmlFor="contact-phone" className="text-xs uppercase tracking-widest text-slate-700 font-black">Phone Number</label>
                   <input
+                    id="contact-phone"
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-300"
+                    className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-400"
                     placeholder="+91 98765 43210"
                     required
                   />
@@ -163,26 +165,28 @@ const Contact = () => {
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs uppercase tracking-widest text-slate-400 font-black">Email Address</label>
+                <label htmlFor="contact-email" className="text-xs uppercase tracking-widest text-slate-700 font-black">Email Address</label>
                 <input
+                  id="contact-email"
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-300"
+                  className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-400"
                   placeholder="john@example.com"
                   required
                 />
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs uppercase tracking-widest text-slate-400 font-black">Message</label>
+                <label htmlFor="contact-message" className="text-xs uppercase tracking-widest text-slate-700 font-black">Message</label>
                 <textarea
+                  id="contact-message"
                   rows={4}
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-300 resize-none"
+                  className="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-900 focus:outline-none focus:border-blue-600 focus:ring-4 focus:ring-blue-50/50 transition-all font-bold placeholder-slate-400 resize-none"
                   placeholder="Tell us about your trading goals..."
                   required
                 ></textarea>

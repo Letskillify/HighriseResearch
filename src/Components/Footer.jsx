@@ -52,9 +52,9 @@ const Footer = () => {
               </div> */}
               <div>
                 <h2 className="text-2xl font-bold text-white tracking-tight">
-                  HighRise <span className="text-blue-500">Research</span>
+                  HighRise <span className="text-blue-400">Research</span>
                 </h2>
-                <p className="text-sm text-slate-500 font-semibold uppercase tracking-wider">Research Analyst</p>
+                <p className="text-sm text-slate-300 font-semibold uppercase tracking-wider">Research Analyst</p>
               </div>
             </Link>
             <p className="text-base leading-relaxed text-slate-300 max-w-sm">
@@ -63,15 +63,16 @@ const Footer = () => {
 
             <div className="flex gap-4">
               {[
-                { icon: <Twitter size={20} />, href: "#" },
-                { icon: <Linkedin size={20} />, href: "#" },
-                { icon: <Youtube size={20} />, href: "#" },
-                { icon: <Send size={20} />, href: "#" },
+                { name: 'Twitter', icon: <Twitter size={20} />, href: '#' },
+                { name: 'LinkedIn', icon: <Linkedin size={20} />, href: '#' },
+                { name: 'YouTube', icon: <Youtube size={20} />, href: '#' },
+                { name: 'Telegram', icon: <Send size={20} />, href: '#' },
               ].map((social, i) => (
                 <a
                   key={i}
                   href={social.href}
-                  className="p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all"
+                  aria-label={`Follow HighRise Research on ${social.name}`}
+                  className="p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 text-slate-300 hover:text-white transition-all"
                 >
                   {social.icon}
                 </a>
@@ -197,9 +198,9 @@ const Footer = () => {
               <Link to="/terms" className="hover:text-blue-400 transition-colors">Terms & Conditions</Link>
             </p>
           </div>
-          <div className="flex items-center gap-6 text-xs text-slate-500 font-bold uppercase tracking-[0.1em]">
-            <span className="text-slate-500">
-              Design by <a href="https://letskillify.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors">LetSkillify</a>
+          <div className="flex items-center gap-6 text-xs text-slate-300 font-bold uppercase tracking-[0.1em]">
+            <span className="text-slate-300">
+              Design by <a href="https://letskillify.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">LetSkillify</a>
             </span>
           </div>
         </div>

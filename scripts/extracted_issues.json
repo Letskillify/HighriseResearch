@@ -1,0 +1,2589 @@
+[
+  {
+    "page": "highriseresearch.in",
+    "rule": "Buttons must have discernible text",
+    "impact": "Critical",
+    "elements": [
+      {
+        "selector": ".top-6",
+        "code": "<button class=\"absolute top-6 right-6 p-2 rounded-full hover:bg-slate-100 transition-colors z-10\">"
+      },
+      {
+        "selector": ".w-fit",
+        "code": "<button class=\"w-fit p-3 rounded-xl bg-white/5 text-white/60 hover:text-white hover:bg-white/10 transition\">"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(1) &gt; .mb-2.items-start.justify-between &gt; .text-white\\/40.hover\\:text-white",
+        "code": "<button class=\"text-white/40 hover:text-white transition\">"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(2) &gt; .mb-2.items-start.justify-between &gt; .text-white\\/40.hover\\:text-white",
+        "code": "<button class=\"text-white/40 hover:text-white transition\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".space-y-1\\.5:nth-child(1) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Mobile Number</label>"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(3) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email ID</label>"
+      },
+      {
+        "selector": ".mt-6",
+        "code": "<p class=\"mt-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest\">* Your data is safe with us</p>"
+      },
+      {
+        "selector": ".-bottom-10 &gt; div:nth-child(2) &gt; .text-\\[10px\\].text-slate-400.font-bold",
+        "code": "<p class=\"text-[10px] text-slate-400 font-bold uppercase\">Real-time Analysis</p>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(1) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(2) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(3) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(4) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(5) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".text-xs.tracking-widest.text-slate-400",
+        "code": "<p class=\"text-xs text-slate-400 font-bold uppercase tracking-widest\">UPI Payment</p>"
+      },
+      {
+        "selector": ".mt-auto &gt; .text-center.text-\\[11px\\].font-medium",
+        "code": "<p class=\"text-center text-[11px] text-slate-400 font-medium\">Supports Google Pay, PhonePe, Paytm &amp; BHIM</p>"
+      },
+      {
+        "selector": ".font-light.text-4xl.text-slate-400",
+        "code": "<span class=\"text-slate-400 font-light text-4xl\">Research Requirements</span>"
+      },
+      {
+        "selector": ".gap-5.cursor-pointer.group:nth-child(1) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Call Us</p>"
+      },
+      {
+        "selector": ".gap-5.cursor-pointer.group:nth-child(2) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Email Support</p>"
+      },
+      {
+        "selector": ".gap-5.cursor-pointer.group:nth-child(3) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Our Office</p>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(1) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>"
+      },
+      {
+        "selector": ".md\\:grid-cols-2.grid.grid-cols-1 &gt; .space-y-2:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Phone Number</label>"
+      },
+      {
+        "selector": "form &gt; .space-y-2:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email Address</label>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(3) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Your Message</label>"
+      },
+      {
+        "selector": "form &gt; .text-center.text-\\[11px\\].font-medium",
+        "code": "<p class=\"text-center text-[11px] text-slate-400 font-medium\" style=\"opacity: 1;\">By clicking send, you agree to our <a class=\"text-blue-600 underline cursor-pointer\" href=\"/privacy\" data-discover=\"true\">Privacy Policy</a>.</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".bottom-6 &gt; .text-xl",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900\">HighRise Research</h4>"
+      },
+      {
+        "selector": ".items-start.gap-4.group:nth-child(1) &gt; div:nth-child(2) &gt; .mb-0\\.5",
+        "code": "<h5 class=\"font-bold text-slate-900 text-lg mb-0.5\">Expert Market Analysis</h5>"
+      },
+      {
+        "selector": ".lg\\:col-span-4.hover\\:shadow-\\[0_25px_60px_-10px_rgba\\(0\\,0\\,0\\,0\\.1\\)\\].bg-\\[\\#F8FAFC\\]:nth-child(1) &gt; .text-xl.mb-2",
+        "code": "<h4 class=\"text-xl font-black text-slate-900 mb-2 flex items-center gap-2\">"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".mb-8.text-center",
+        "code": "<div class=\"mb-8 text-center\"><h3 class=\"text-3xl font-black text-slate-900 tracking-tight mb-2\">Get <span class=\"text-blue-600\">Free</span> Consultation</h3><p class=\"text-slate-500 font-medium\">Leave your details and we'll reach out to you.</p></div>"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(1) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>"
+      },
+      {
+        "selector": "input[placeholder=&quot;Enter your name&quot;]",
+        "code": "<input required=\"\" class=\"w-full pl-14 pr-6 py-4 bg-slate-50 border border-transparent rounded-2xl focus:bg-white focus:border-blue-500 transition-all outline-none font-bold text-slate-900\" placeholder=\"Enter your name\" type=\"text\" value=\"\" name=\"name\">"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Mobile Number</label>"
+      },
+      {
+        "selector": "input[placeholder=&quot;Your 10 digit number&quot;]",
+        "code": "<input required=\"\" class=\"w-full pl-14 pr-6 py-4 bg-slate-50 border border-transparent rounded-2xl focus:bg-white focus:border-blue-500 transition-all outline-none font-bold text-slate-900\" placeholder=\"Your 10 digit number\" type=\"tel\" value=\"\" name=\"mobile\">"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(3) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email ID</label>"
+      },
+      {
+        "selector": "input[placeholder=&quot;Email address&quot;]",
+        "code": "<input required=\"\" class=\"w-full pl-14 pr-6 py-4 bg-slate-50 border border-transparent rounded-2xl focus:bg-white focus:border-blue-500 transition-all outline-none font-bold text-slate-900\" placeholder=\"Email address\" type=\"email\" value=\"\" name=\"email\">"
+      },
+      {
+        "selector": ".mt-6",
+        "code": "<p class=\"mt-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest\">* Your data is safe with us</p>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/",
+    "rule": "Buttons must have discernible text",
+    "impact": "Critical",
+    "elements": [
+      {
+        "selector": ".top-6",
+        "code": "<button class=\"absolute top-6 right-6 p-2 rounded-full hover:bg-slate-100 transition-colors z-10\">"
+      },
+      {
+        "selector": ".w-fit",
+        "code": "<button class=\"w-fit p-3 rounded-xl bg-white/5 text-white/60 hover:text-white hover:bg-white/10 transition\">"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(1) &gt; .mb-2.items-start.justify-between &gt; .text-white\\/40.hover\\:text-white",
+        "code": "<button class=\"text-white/40 hover:text-white transition\">"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(2) &gt; .mb-2.items-start.justify-between &gt; .text-white\\/40.hover\\:text-white",
+        "code": "<button class=\"text-white/40 hover:text-white transition\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".space-y-1\\.5:nth-child(1) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Mobile Number</label>"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(3) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email ID</label>"
+      },
+      {
+        "selector": ".mt-6",
+        "code": "<p class=\"mt-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest\">* Your data is safe with us</p>"
+      },
+      {
+        "selector": ".-bottom-10 &gt; div:nth-child(2) &gt; .text-\\[10px\\].text-slate-400.font-bold",
+        "code": "<p class=\"text-[10px] text-slate-400 font-bold uppercase\">Real-time Analysis</p>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(1) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(2) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(3) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(4) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(5) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+        "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>"
+      },
+      {
+        "selector": ".text-xs.tracking-widest.text-slate-400",
+        "code": "<p class=\"text-xs text-slate-400 font-bold uppercase tracking-widest\">UPI Payment</p>"
+      },
+      {
+        "selector": ".mt-auto &gt; .text-center.text-\\[11px\\].font-medium",
+        "code": "<p class=\"text-center text-[11px] text-slate-400 font-medium\">Supports Google Pay, PhonePe, Paytm &amp; BHIM</p>"
+      },
+      {
+        "selector": ".font-light.text-4xl.text-slate-400",
+        "code": "<span class=\"text-slate-400 font-light text-4xl\">Research Requirements</span>"
+      },
+      {
+        "selector": ".gap-5.cursor-pointer.group:nth-child(1) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Call Us</p>"
+      },
+      {
+        "selector": ".gap-5.cursor-pointer.group:nth-child(2) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Email Support</p>"
+      },
+      {
+        "selector": ".gap-5.cursor-pointer.group:nth-child(3) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Our Office</p>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(1) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>"
+      },
+      {
+        "selector": ".md\\:grid-cols-2.grid.grid-cols-1 &gt; .space-y-2:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Phone Number</label>"
+      },
+      {
+        "selector": "form &gt; .space-y-2:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email Address</label>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(3) &gt; label",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Your Message</label>"
+      },
+      {
+        "selector": "form &gt; .text-center.text-\\[11px\\].font-medium",
+        "code": "<p class=\"text-center text-[11px] text-slate-400 font-medium\" style=\"opacity: 1;\">By clicking send, you agree to our <a class=\"text-blue-600 underline cursor-pointer\" href=\"/privacy\" data-discover=\"true\">Privacy Policy</a>.</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-500.border-slate-800[href=&quot;#&quot;]:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".bottom-6 &gt; .text-xl",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900\">HighRise Research</h4>"
+      },
+      {
+        "selector": ".items-start.gap-4.group:nth-child(1) &gt; div:nth-child(2) &gt; .mb-0\\.5",
+        "code": "<h5 class=\"font-bold text-slate-900 text-lg mb-0.5\">Expert Market Analysis</h5>"
+      },
+      {
+        "selector": ".lg\\:col-span-4.hover\\:shadow-\\[0_25px_60px_-10px_rgba\\(0\\,0\\,0\\,0\\.1\\)\\].bg-\\[\\#F8FAFC\\]:nth-child(1) &gt; .text-xl.mb-2",
+        "code": "<h4 class=\"text-xl font-black text-slate-900 mb-2 flex items-center gap-2\">"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".mb-8.text-center",
+        "code": "<div class=\"mb-8 text-center\"><h3 class=\"text-3xl font-black text-slate-900 tracking-tight mb-2\">Get <span class=\"text-blue-600\">Free</span> Consultation</h3><p class=\"text-slate-500 font-medium\">Leave your details and we'll reach out to you.</p></div>"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(1) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>"
+      },
+      {
+        "selector": "input[placeholder=&quot;Enter your name&quot;]",
+        "code": "<input required=\"\" class=\"w-full pl-14 pr-6 py-4 bg-slate-50 border border-transparent rounded-2xl focus:bg-white focus:border-blue-500 transition-all outline-none font-bold text-slate-900\" placeholder=\"Enter your name\" type=\"text\" value=\"\" name=\"name\">"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(2) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Mobile Number</label>"
+      },
+      {
+        "selector": "input[placeholder=&quot;Your 10 digit number&quot;]",
+        "code": "<input required=\"\" class=\"w-full pl-14 pr-6 py-4 bg-slate-50 border border-transparent rounded-2xl focus:bg-white focus:border-blue-500 transition-all outline-none font-bold text-slate-900\" placeholder=\"Your 10 digit number\" type=\"tel\" value=\"\" name=\"mobile\">"
+      },
+      {
+        "selector": ".space-y-1\\.5:nth-child(3) &gt; label",
+        "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email ID</label>"
+      },
+      {
+        "selector": "input[placeholder=&quot;Email address&quot;]",
+        "code": "<input required=\"\" class=\"w-full pl-14 pr-6 py-4 bg-slate-50 border border-transparent rounded-2xl focus:bg-white focus:border-blue-500 transition-all outline-none font-bold text-slate-900\" placeholder=\"Email address\" type=\"email\" value=\"\" name=\"email\">"
+      },
+      {
+        "selector": ".mt-6",
+        "code": "<p class=\"mt-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest\">* Your data is safe with us</p>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/about",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-blue-100",
+        "code": "<p class=\"text-blue-100 font-medium\">Market Experience</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/about",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/about",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".gap-4.flex:nth-child(1) &gt; div:nth-child(2) &gt; .mb-1",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-1\">High-Probability Setups</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; .tracking-widest",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/about",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".shadow-lg.transform.hover\\:-translate-y-2:nth-child(1) &gt; .p-8 &gt; h3",
+        "code": "<h3 class=\"text-2xl font-bold text-slate-900 mb-3\">Equity Cash Research</h3>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/contact",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(1) &gt; .mb-2",
+        "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Call Us</h4>"
+      },
+      {
+        "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(2) &gt; .mb-2",
+        "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Email Us</h4>"
+      },
+      {
+        "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(3) &gt; .mb-2",
+        "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Location</h4>"
+      },
+      {
+        "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(4) &gt; .mb-2",
+        "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Market Hours</h4>"
+      },
+      {
+        "selector": ".mt-1.text-xs.text-slate-400",
+        "code": "<p class=\"font-bold text-slate-400 text-xs mt-1\">Closed on Exchange Holidays</p>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(1) &gt; label",
+        "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Full Name</label>"
+      },
+      {
+        "selector": ".md\\:grid-cols-2 &gt; .space-y-2:nth-child(2) &gt; label",
+        "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Phone Number</label>"
+      },
+      {
+        "selector": "form &gt; .space-y-2:nth-child(2) &gt; label",
+        "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Email Address</label>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(3) &gt; label",
+        "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Message</label>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/contact",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/contact",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(1) &gt; .mb-2",
+        "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Call Us</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/contact",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/investor",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".md\\:flex-row.justify-between.sm\\:px-6 &gt; p",
+        "code": "<p>© 2026 HighRise Research. All Rights Reserved.</p>"
+      },
+      {
+        "selector": ".transition.hover\\:text-white[href=&quot;#&quot;]:nth-child(1)",
+        "code": "<a href=\"#\" class=\"hover:text-white transition\">Privacy Policy</a>"
+      },
+      {
+        "selector": ".transition.hover\\:text-white[href=&quot;#&quot;]:nth-child(2)",
+        "code": "<a href=\"#\" class=\"hover:text-white transition\">Terms of Service</a>"
+      },
+      {
+        "selector": ".transition.hover\\:text-white[href=&quot;#&quot;]:nth-child(3)",
+        "code": "<a href=\"#\" class=\"hover:text-white transition\">SEBI Registration</a>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/investor",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/investor",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".p-10.shadow-xl.rounded-\\[2\\.5rem\\] &gt; h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Our Vision</h3>"
+      },
+      {
+        "selector": ".md\\:col-span-2.rounded-\\[2rem\\].p-8:nth-child(1) &gt; .mb-4",
+        "code": "<h4 class=\"font-black text-slate-900 mb-4 flex items-center gap-2\"><div class=\"w-2 h-2 rounded-full bg-blue-600\"></div> Client Onboarding</h4>"
+      },
+      {
+        "selector": ".rounded-\\[2rem\\].p-8.shadow-sm:nth-child(1) &gt; .text-lg.mb-2",
+        "code": "<h4 class=\"text-lg font-bold mb-2\">Reach Out to RA</h4>"
+      },
+      {
+        "selector": ".text-emerald-700",
+        "code": "<h4 class=\"font-black text-emerald-700 mb-4 flex items-center gap-2\">The Do's</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/investor",
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-slate-900 text-white border-t border-slate-800\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/investor",
+    "rule": "Document should have one main landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "html",
+        "code": "<html lang=\"en\" style=\"scroll-behavior: auto;\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/investor",
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-slate-900 text-white border-t border-slate-800\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/investor",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".h-\\[400px\\]",
+        "code": "<section class=\"relative h-[400px] md:h-[480px] w-full bg-[#020617] overflow-hidden mt-24 md:mt-28 \">"
+      },
+      {
+        "selector": ".p-10.shadow-xl.rounded-\\[2\\.5rem\\] &gt; h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Our Vision</h3>"
+      },
+      {
+        "selector": ".text-2xl.leading-relaxed.font-bold",
+        "code": "<p class=\"text-2xl font-bold leading-relaxed\">Invest with knowledge &amp; safety.</p>"
+      },
+      {
+        "selector": ".hover\\:shadow-lg &gt; h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-slate-500 mb-2\">Our Mission</h3>"
+      },
+      {
+        "selector": ".text-lg.leading-relaxed.font-medium",
+        "code": "<p class=\"text-lg font-medium text-slate-700 leading-relaxed\">Every investor should be able to invest in right investment products based on their needs, manage and monitor them to meet their goals, access reports and enjoy financial wellness.</p>"
+      },
+      {
+        "selector": ".sticky &gt; .mb-3.tracking-widest.uppercase",
+        "code": "<p class=\"text-sm font-black tracking-widest text-blue-600 uppercase mb-3\">Section B</p>"
+      },
+      {
+        "selector": ".sticky &gt; .text-4xl",
+        "code": "<h2 class=\"text-4xl font-black text-slate-900 mb-4\">Business <br>Transacted</h2>"
+      },
+      {
+        "selector": ".max-w-sm.mb-8.text-slate-500",
+        "code": "<p class=\"text-slate-500 max-w-sm mb-8\">Core operations and obligations of the Research Analyst with respect to the investors.</p>"
+      },
+      {
+        "selector": ".p-6 &gt; div:nth-child(2)",
+        "code": "<div><p class=\"text-sm font-bold text-slate-900\">Strictly Independent</p><p class=\"text-sm text-slate-500\">Unbiased views on all market securities.</p></div>"
+      },
+      {
+        "selector": ".lg\\:col-span-7",
+        "code": "<div class=\"lg:col-span-7 space-y-4\" style=\"opacity: 0;\">"
+      },
+      {
+        "selector": ".lg\\:grid-cols-12.gap-12.grid:nth-child(3)",
+        "code": "<div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 items-start\">"
+      },
+      {
+        "selector": ".mb-16",
+        "code": "<div class=\"text-center mb-16\" style=\"opacity: 1; transform: none;\">"
+      },
+      {
+        "selector": ".rounded-\\[2rem\\].p-8.shadow-sm:nth-child(1) &gt; .top-6.right-6.bg-blue-50",
+        "code": "<span class=\"absolute top-6 right-6 text-sm font-black text-blue-600 bg-blue-50 px-3 py-1 rounded-full\">Level 01</span>"
+      },
+      {
+        "selector": ".rounded-\\[2rem\\].p-8.shadow-sm:nth-child(1) &gt; .text-lg.mb-2",
+        "code": "<h4 class=\"text-lg font-bold mb-2\">Reach Out to RA</h4>"
+      },
+      {
+        "selector": ".rounded-\\[2rem\\].p-8.shadow-sm:nth-child(1) &gt; .leading-relaxed.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed\">Approach the concerned Research Analyst directly. Grievances will be addressed immediately, or definitely within **21 days** of receipt.</p>"
+      },
+      {
+        "selector": ".rounded-\\[2rem\\].p-8.shadow-sm:nth-child(2) &gt; .top-6.right-6.bg-blue-50",
+        "code": "<span class=\"absolute top-6 right-6 text-sm font-black text-blue-600 bg-blue-50 px-3 py-1 rounded-full\">Level 02</span>"
+      },
+      {
+        "selector": ".rounded-\\[2rem\\].p-8.shadow-sm:nth-child(2) &gt; .text-lg.mb-2",
+        "code": "<h4 class=\"text-lg font-bold mb-2\">RAASB or SCORES 2.0</h4>"
+      },
+      {
+        "selector": ".rounded-\\[2rem\\].p-8.shadow-sm:nth-child(2) &gt; .leading-relaxed.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed\">If not satisfied, file a complaint on SEBI's SCORES 2.0 or directly email RAASB. This triggers two reviews: designated body first, then SEBI.</p>"
+      },
+      {
+        "selector": ".bg-slate-800",
+        "code": "<span class=\"absolute top-6 right-6 text-sm font-black text-blue-400 bg-slate-800 px-3 py-1 rounded-full\">Level 03</span>"
+      },
+      {
+        "selector": ".shadow-xl.rounded-\\[2\\.5rem\\].p-8 &gt; .text-lg.mb-2",
+        "code": "<h4 class=\"text-lg font-bold mb-2\">SMARTODR Platform</h4>"
+      },
+      {
+        "selector": ".shadow-xl.rounded-\\[2\\.5rem\\].p-8 &gt; .text-slate-400.leading-relaxed",
+        "code": "<p class=\"text-sm text-slate-400 leading-relaxed\">Opt to file the complaint on the SMARTODR platform for resolutions driven through highly transparent online conciliation or arbitration.</p>"
+      },
+      {
+        "selector": ".text-xl",
+        "code": "<h4 class=\"text-xl font-black text-slate-900 mb-2\">SEBI Regulator Office</h4>"
+      },
+      {
+        "selector": ".mb-4.leading-relaxed.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 font-medium leading-relaxed mb-4\">Physical complaints can be dispatched straight to the Office of Investor Assistance at the SEBI Bhavan.</p>"
+      },
+      {
+        "selector": ".leading-relaxed.text-slate-700.uppercase",
+        "code": "<p class=\"text-sm font-bold text-slate-700 leading-relaxed uppercase\">SEBI Bhavan BKC Address : Plot No.C4-A, 'G' Block Bandra-Kurla Complex, Bandra (East), Mumbai - 400051, Maharashtra</p>"
+      },
+      {
+        "selector": ".gap-2.items-center.flex:nth-child(1) &gt; .tracking-wider.text-slate-500.font-black",
+        "code": "<span class=\"text-sm font-black text-slate-500 tracking-wider\">+91-22-26449000</span>"
+      },
+      {
+        "selector": ".gap-2.items-center.flex:nth-child(2) &gt; .tracking-wider.text-slate-500.uppercase",
+        "code": "<span class=\"text-sm font-black text-slate-500 tracking-wider uppercase\">sebi@sebi.gov.in</span>"
+      },
+      {
+        "selector": ".tracking-wider.text-slate-900.font-black",
+        "code": "<span class=\"text-sm font-black text-slate-900 tracking-wider\">HELPLINE: 1800 22 7575</span>"
+      },
+      {
+        "selector": ".lg\\:grid-cols-2 &gt; div:nth-child(1) &gt; .mb-3.tracking-widest.uppercase",
+        "code": "<p class=\"text-sm font-black tracking-widest text-blue-600 uppercase mb-3\">Section E</p>"
+      },
+      {
+        "selector": "div:nth-child(1) &gt; .mb-8.text-4xl",
+        "code": "<h2 class=\"text-4xl font-black text-slate-900 mb-8\">Rights of Investors</h2>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(1) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to Privacy and Confidentiality</p>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(2) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to Transparent Practices and Fair Treatment</p>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(3) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to Adequate Information and Continuing Disclosures</p>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(4) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to Fair &amp; True Advertisements</p>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(5) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to Awareness about Service Parameters and Turnaround Times</p>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(6) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to be Heard and have Satisfactory Grievance Redressal</p>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(7) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to Exit from Financial products or services according to agreed terms</p>"
+      },
+      {
+        "selector": ".border-slate-50.p-4.gap-3:nth-child(8) &gt; .text-slate-700.font-bold",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Right to access services in a suitable manner even if differently abled</p>"
+      },
+      {
+        "selector": ".lg\\:grid-cols-2 &gt; div:nth-child(2)",
+        "code": "<div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/payment",
+    "rule": "Buttons must have discernible text",
+    "impact": "Critical",
+    "elements": [
+      {
+        "selector": ".w-fit",
+        "code": "<button class=\"w-fit p-3 rounded-xl bg-white/5 text-white/60 hover:text-white hover:bg-white/10 transition\">"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(1) &gt; .mb-2.items-start.justify-between &gt; .text-white\\/40.transition",
+        "code": "<button class=\"text-white/40 hover:text-white transition\">"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(2) &gt; .mb-2.items-start.justify-between &gt; .text-white\\/40.transition",
+        "code": "<button class=\"text-white/40 hover:text-white transition\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/payment",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-xs.text-slate-400.tracking-widest",
+        "code": "<p class=\"text-xs text-slate-400 font-bold uppercase tracking-widest\">UPI Payment</p>"
+      },
+      {
+        "selector": ".text-\\[11px\\]",
+        "code": "<p class=\"text-center text-[11px] text-slate-400 font-medium\">Supports Google Pay, PhonePe, Paytm &amp; BHIM</p>"
+      },
+      {
+        "selector": ".bg-emerald-500",
+        "code": "<a href=\"https://wa.me/919098693674\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"px-8 py-3 bg-emerald-500 text-white font-bold rounded-xl hover:bg-emerald-600 transition-colors shadow-lg shadow-emerald-500/20\">WhatsApp Support</a>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/payment",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/payment",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/payment",
+    "rule": "Document should have one main landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "html",
+        "code": "<html lang=\"en\" style=\"scroll-behavior: auto;\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/payment",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".h-\\[400px\\]",
+        "code": "<section class=\"relative h-[400px] md:h-[480px] w-full bg-[#020617] overflow-hidden mt-24 md:mt-28 \">"
+      },
+      {
+        "selector": ".max-w-3xl",
+        "code": "<div class=\"max-w-3xl mb-16\" style=\"opacity: 1; transform: none;\">"
+      },
+      {
+        "selector": ".mb-10.gap-4.items-center &gt; div:nth-child(2)",
+        "code": "<div><h3 class=\"text-2xl font-bold text-slate-900\">Quick Scan</h3><p class=\"text-xs text-slate-400 font-bold uppercase tracking-widest\">UPI Payment</p></div>"
+      },
+      {
+        "selector": ".max-w-\\[350px\\]",
+        "code": "<div class=\"relative mx-auto w-full max-w-[350px] aspect-square rounded-[2rem] bg-slate-50 p-6 border border-slate-100 mb-10 group-hover:bg-white transition-colors duration-500\">"
+      },
+      {
+        "selector": ".mt-auto",
+        "code": "<div class=\"mt-auto space-y-4\"><p class=\"text-center text-[11px] text-slate-400 font-medium\">Supports Google Pay, PhonePe, Paytm &amp; BHIM</p></div>"
+      },
+      {
+        "selector": ".mb-12 &gt; .gap-4.items-center.flex &gt; div:nth-child(2)",
+        "code": "<div><h3 class=\"text-2xl font-bold text-white\">Corporate Banking</h3><p class=\"text-xs text-blue-400 font-bold uppercase tracking-widest\">IMPS / NEFT / RTGS</p></div>"
+      },
+      {
+        "selector": ".px-3 &gt; .text-\\[10px\\].tracking-widest.font-black",
+        "code": "<span class=\"text-[10px] font-black uppercase tracking-widest\">HDFC Verified</span>"
+      },
+      {
+        "selector": ".md\\:items-center &gt; div",
+        "code": "<div><p class=\"text-[10px] text-blue-400 font-black uppercase tracking-[0.2em] mb-2\">Account Holder Name</p><p class=\"text-xl font-bold text-white\">HIGHRISE RESEARCH</p></div>"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(1) &gt; .mb-2.items-start.justify-between &gt; .tracking-\\[0\\.2em\\].text-blue-400.text-\\[10px\\]",
+        "code": "<p class=\"text-[10px] text-blue-400 font-black uppercase tracking-[0.2em]\">Account Number</p>"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(1) &gt; .text-xl.font-mono.text-white",
+        "code": "<p class=\"text-xl font-mono font-bold text-white\">50200116853029</p>"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(2) &gt; .mb-2.items-start.justify-between &gt; .tracking-\\[0\\.2em\\].text-blue-400.text-\\[10px\\]",
+        "code": "<p class=\"text-[10px] text-blue-400 font-black uppercase tracking-[0.2em]\">IFSC Code</p>"
+      },
+      {
+        "selector": ".bg-white\\/5.border-white\\/10.hover\\:bg-white\\/10:nth-child(2) &gt; .text-xl.font-mono.text-white",
+        "code": "<p class=\"text-xl font-mono font-bold text-white uppercase\">HDFC0006155</p>"
+      },
+      {
+        "selector": ".bg-blue-600\\/10 &gt; .gap-4.items-center.flex &gt; div:nth-child(2)",
+        "code": "<div><p class=\"text-xs text-blue-200\">Processing Time</p><p class=\"text-sm font-bold text-white\">Instant (IMPS)</p></div>"
+      },
+      {
+        "selector": ".gap-3.items-center.flex:nth-child(1) &gt; .text-white\\/60.text-\\[10px\\].tracking-widest",
+        "code": "<p class=\"text-[10px] text-white/60 font-black uppercase tracking-widest\">Encrypted <br> Transfer</p>"
+      },
+      {
+        "selector": ".gap-3.items-center.flex:nth-child(2) &gt; .text-white\\/60.text-\\[10px\\].tracking-widest",
+        "code": "<p class=\"text-[10px] text-white/60 font-black uppercase tracking-widest\">SEBI <br> Compliant</p>"
+      },
+      {
+        "selector": ".py-20",
+        "code": "<section class=\"py-20 bg-white\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/refund",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".border-slate-50",
+        "code": "<div class=\"p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium\">Detailed terms are mapped out in the general Terms &amp; Conditions document.</div>"
+      },
+      {
+        "selector": ".text-slate-400.tracking-widest.uppercase",
+        "code": "<p class=\"text-slate-400 font-bold uppercase tracking-widest\">Trust &amp; Transparency</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/refund",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/refund",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Our Philosophy</h3>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; .tracking-widest",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/refund",
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/refund",
+    "rule": "Document should have one main landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "html",
+        "code": "<html lang=\"en\" style=\"scroll-behavior: auto;\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/refund",
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/refund",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".h-\\[400px\\]",
+        "code": "<section class=\"relative h-[400px] md:h-[480px] w-full bg-[#020617] overflow-hidden mt-24 md:mt-28 \">"
+      },
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Our Philosophy</h3>"
+      },
+      {
+        "selector": ".mb-4",
+        "code": "<h4 class=\"text-2xl font-bold mb-4\">Service Commitment</h4>"
+      },
+      {
+        "selector": ".space-y-4.leading-relaxed.text-slate-300",
+        "code": "<div class=\"space-y-4 text-slate-300 text-sm leading-relaxed\">"
+      },
+      {
+        "selector": ".text-lg.mb-2",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-2\">General Sales Condition</h4>"
+      },
+      {
+        "selector": ".leading-relaxed.mb-6.font-medium",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed font-medium mb-6\">All sales are final. Before proceeding with any active subscriptions, please ensure that our listed products and services perfectly meet your investment needs.</p>"
+      },
+      {
+        "selector": ".border-slate-50",
+        "code": "<div class=\"p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium\">Detailed terms are mapped out in the general Terms &amp; Conditions document.</div>"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(3) &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3 relative z-10\">SEBI Suspension Protections</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(3) &gt; .space-y-3.leading-relaxed.font-medium",
+        "code": "<div class=\"space-y-3 text-sm text-slate-500 leading-relaxed relative z-10 font-medium\">"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(4) &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3\">Advance Fees &amp; Termination</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(4) &gt; .space-y-3.leading-relaxed.font-medium",
+        "code": "<div class=\"space-y-3 text-sm text-slate-500 leading-relaxed font-medium\">"
+      },
+      {
+        "selector": ".text-2xl.font-black",
+        "code": "<h4 class=\"text-2xl font-black text-slate-900\">Pre-payment Checklist</h4>"
+      },
+      {
+        "selector": ".md\\:col-span-1 &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 font-medium\">We strongly recommend that all visitors and potential clients review these elements before initiating any payments.</p>"
+      },
+      {
+        "selector": ".border-emerald-50.items-start.p-4:nth-child(1) &gt; .text-slate-700",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Read all information about our services and support.</p>"
+      },
+      {
+        "selector": ".border-emerald-50.items-start.p-4:nth-child(2) &gt; .text-slate-700",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Review our standard Terms and Conditions document.</p>"
+      },
+      {
+        "selector": ".border-emerald-50.items-start.p-4:nth-child(3) &gt; .text-slate-700",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Analyze our Data Privacy Policy rules.</p>"
+      },
+      {
+        "selector": ".border-emerald-50.items-start.p-4:nth-child(4) &gt; .text-slate-700",
+        "code": "<p class=\"text-sm font-bold text-slate-700\">Acknowledge all financial parameters mapped here.</p>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/aml",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-slate-400.tracking-widest.uppercase",
+        "code": "<p class=\"text-slate-400 font-bold uppercase tracking-widest\">Compliance First</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/aml",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/aml",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Legal Framework</h3>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(1) &gt; .mb-3.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-3\">Identity of Clients</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; .tracking-widest",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/aml",
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/aml",
+    "rule": "Document should have one main landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "html",
+        "code": "<html lang=\"en\" style=\"scroll-behavior: auto;\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/aml",
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/aml",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".h-\\[400px\\]",
+        "code": "<section class=\"relative h-[400px] md:h-[480px] w-full bg-[#020617] overflow-hidden mt-24 md:mt-28 \">"
+      },
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Legal Framework</h3>"
+      },
+      {
+        "selector": ".text-2xl.mb-4",
+        "code": "<h4 class=\"text-2xl font-bold mb-4\">Prevention of Money Laundering Act, 2002</h4>"
+      },
+      {
+        "selector": ".space-y-4.text-slate-300.leading-relaxed",
+        "code": "<div class=\"space-y-4 text-slate-300 text-sm leading-relaxed\">"
+      },
+      {
+        "selector": ".mb-2.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-2\">FIU-IND Authority</h4>"
+      },
+      {
+        "selector": ".mb-6.leading-relaxed.font-medium",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed font-medium mb-6\">The Financial Intelligence Unit-India is the central national agency responsible for receiving, processing, and disseminating information on suspect financial operations.</p>"
+      },
+      {
+        "selector": ".mb-2.gap-3.items-center &gt; .text-2xl",
+        "code": "<h4 class=\"text-2xl font-black text-slate-900\">Suspicious <br>Activities</h4>"
+      },
+      {
+        "selector": ".md\\:col-span-1 &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 font-medium\">Defined under Section 2 (1) (g) of PMLA Rules. Transactions are flagged if a person acting in good faith notes specific red flags.</p>"
+      },
+      {
+        "selector": ".md\\:col-span-2",
+        "code": "<div class=\"md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6\">"
+      },
+      {
+        "selector": ".mb-12",
+        "code": "<div class=\"text-center mb-12\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(1) &gt; .mb-3.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-3\">Identity of Clients</h4>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(1) &gt; .space-y-2",
+        "code": "<ul class=\"text-sm text-slate-500 font-medium space-y-2 leading-relaxed\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(2) &gt; .mb-3.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-3\">Suspicious Background</h4>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(2) &gt; .space-y-2",
+        "code": "<ul class=\"text-sm text-slate-500 font-medium space-y-2 leading-relaxed\"><li class=\"flex gap-2\">• Positive matches of names/DOB on watchlist.</li><li class=\"flex gap-2\">• Heavily linked accounts of publicly known criminals.</li></ul>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(3) &gt; .mb-3.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-3\">Multiple Accounts</h4>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(3) &gt; .space-y-2",
+        "code": "<ul class=\"text-sm text-slate-500 font-medium space-y-2 leading-relaxed\"><li class=\"flex gap-2\">• Massive grid of accounts sharing common signatories without rationale.</li><li class=\"flex gap-2\">• Unexplained cross-transfers with zero logic applied.</li></ul>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(4) &gt; .mb-3.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-3\">Activity in Accounts</h4>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(4) &gt; .space-y-2",
+        "code": "<ul class=\"text-sm text-slate-500 font-medium space-y-2 leading-relaxed\"><li class=\"flex gap-2\">• Sudden unexplained activity in long-dormant accounts.</li><li class=\"flex gap-2\">• Activity strictly inconsistent with declared business lines.</li></ul>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(5) &gt; .mb-3.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-3\">Nature of Transactions</h4>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(5) &gt; .space-y-2",
+        "code": "<ul class=\"text-sm text-slate-500 font-medium space-y-2 leading-relaxed\">"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(6) &gt; .mb-3.text-lg",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-3\">Value of Transactions</h4>"
+      },
+      {
+        "selector": ".hover\\:border-blue-100.p-8.rounded-\\[2rem\\]:nth-child(6) &gt; .space-y-2",
+        "code": "<ul class=\"text-sm text-slate-500 font-medium space-y-2 leading-relaxed\"><li class=\"flex gap-2\">• Layered values keeping just below reporting thresholds.</li><li class=\"flex gap-2\">• Large values inconsistent with client's mapped financial standing.</li></ul>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/disclaimer",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".mt-4",
+        "code": "<p class=\"mt-4 text-sm font-bold text-slate-400\">REGISTERED OFFICE: A-172 Kanak Avenue Colony, lasudiya Mori Indore</p>"
+      },
+      {
+        "selector": ".mb-2.text-slate-400.font-black",
+        "code": "<p class=\"text-sm uppercase font-black text-slate-400 tracking-widest mb-2\">Regulatory Authority</p>"
+      },
+      {
+        "selector": ".gap-6.flex &gt; .text-slate-400.tracking-widest.uppercase",
+        "code": "<p class=\"text-slate-400 font-bold uppercase tracking-widest\">Compliance First</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/disclaimer",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/disclaimer",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">SEBI Registration</h3>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; .tracking-widest",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/disclaimer",
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/disclaimer",
+    "rule": "Document should have one main landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "html",
+        "code": "<html lang=\"en\" style=\"scroll-behavior: auto;\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/disclaimer",
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/disclaimer",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".h-\\[400px\\]",
+        "code": "<section class=\"relative h-[400px] md:h-[480px] w-full bg-[#020617] overflow-hidden mt-24 md:mt-28 \">"
+      },
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">SEBI Registration</h3>"
+      },
+      {
+        "selector": ".mb-4.text-2xl",
+        "code": "<h4 class=\"text-2xl font-bold mb-4\">HighRise Research</h4>"
+      },
+      {
+        "selector": ".space-y-4.text-slate-300.leading-relaxed",
+        "code": "<div class=\"space-y-4 text-slate-300 text-sm leading-relaxed\">"
+      },
+      {
+        "selector": ".text-lg.mb-2",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-2\">Terms &amp; Conditions</h4>"
+      },
+      {
+        "selector": ".mb-6.leading-relaxed.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed mb-6\">Terms and conditions of Research and Recommendation Services are detailed in our full terms document. Please refer to the same for in-depth details.</p>"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(3) &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3\">Research Dissemination</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(3) &gt; .space-y-3.font-medium.leading-relaxed",
+        "code": "<div class=\"space-y-3 text-sm text-slate-500 leading-relaxed font-medium\">"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(4) &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3 relative z-10\">Network &amp; Software Risks</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-6.p-8.rounded-\\[2rem\\]:nth-child(4) &gt; .space-y-3.font-medium.leading-relaxed",
+        "code": "<div class=\"space-y-3 text-sm text-slate-500 leading-relaxed relative z-10 font-medium\">"
+      },
+      {
+        "selector": ".lg\\:col-span-5 &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3\">Usage Restrictions</h4>"
+      },
+      {
+        "selector": ".space-y-3.font-medium.text-slate-600",
+        "code": "<div class=\"space-y-3 text-sm text-slate-600 leading-relaxed font-medium\">"
+      },
+      {
+        "selector": ".lg\\:col-span-7 &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3\">Consent to Contact (DND Override)</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-7 &gt; .space-y-3.font-medium.leading-relaxed",
+        "code": "<div class=\"space-y-3 text-sm text-slate-500 leading-relaxed font-medium\">"
+      },
+      {
+        "selector": ".text-2xl.font-black",
+        "code": "<h4 class=\"text-2xl font-black text-slate-900\">Jurisdiction &amp; Arbitration</h4>"
+      },
+      {
+        "selector": ".space-y-4.font-medium.text-slate-600",
+        "code": "<div class=\"space-y-4 text-sm text-slate-600 font-medium\">"
+      },
+      {
+        "selector": ".p-6 &gt; .mb-1.font-black.tracking-widest",
+        "code": "<p class=\"text-sm font-black text-slate-900 uppercase tracking-widest mb-1\">Notice</p>"
+      },
+      {
+        "selector": ".p-6 &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 font-medium\">If you do not agree with any of the terms, please exit the site.</p>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/complaints",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": "section:nth-child(1) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-slate-500 font-medium\">Data for the month ending March 2026</p>"
+      },
+      {
+        "selector": "section:nth-child(2) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-slate-500 font-medium\">Detailed breakdown of complaint handling throughout 2025</p>"
+      },
+      {
+        "selector": "section:nth-child(3) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-slate-500 font-medium\">Complaints received and resolved annually</p>"
+      },
+      {
+        "selector": "section:nth-child(4) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-slate-500 font-medium\">Status of regulatory audits over the financial years</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/complaints",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/complaints",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/complaints",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/kyc",
+    "rule": "Form elements must have labels",
+    "impact": "Critical",
+    "elements": [
+      {
+        "selector": "input[type=&quot;date&quot;]",
+        "code": "<input required=\"\" class=\"\n    w-full px-6 py-4 rounded-2xl bg-white border transition-all duration-300 outline-none font-bold text-slate-700\n    border-slate-200 hover:border-slate-300\n   pl-14\" type=\"date\" value=\"\" name=\"dob\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/kyc",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".space-y-2:nth-child(1) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name (As Per PAN Card) *</label>"
+      },
+      {
+        "selector": ".md\\:grid-cols-2.gap-8.grid:nth-child(1) &gt; .space-y-2:nth-child(2) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Father's Name *</label>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(3) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Mobile Number *</label>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(4) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email Address *</label>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(5) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Date of Birth *</label>"
+      },
+      {
+        "selector": ".space-y-2:nth-child(6) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">PAN Card Number *</label>"
+      },
+      {
+        "selector": "form &gt; .space-y-2 &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Address (As Per Aadhar Card) *</label>"
+      },
+      {
+        "selector": ".space-y-3:nth-child(1) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">PAN Card Upload *</label>"
+      },
+      {
+        "selector": "label[for=&quot;pan-upload&quot;] &gt; .gap-2.flex-col.items-center &gt; .text-\\[10px\\].text-slate-400",
+        "code": "<span class=\"text-[10px] font-bold text-slate-400 uppercase\">Upload PAN</span>"
+      },
+      {
+        "selector": ".space-y-3:nth-child(2) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Aadhar Front *</label>"
+      },
+      {
+        "selector": "label[for=&quot;aadhar-front&quot;] &gt; .gap-2.flex-col.items-center &gt; .text-\\[10px\\].text-slate-400",
+        "code": "<span class=\"text-[10px] font-bold text-slate-400 uppercase\">Aadhar Front</span>"
+      },
+      {
+        "selector": ".space-y-3:nth-child(3) &gt; .text-\\[11px\\].ml-1",
+        "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Aadhar Back *</label>"
+      },
+      {
+        "selector": "label[for=&quot;aadhar-back&quot;] &gt; .gap-2.flex-col.items-center &gt; .text-\\[10px\\].text-slate-400",
+        "code": "<span class=\"text-[10px] font-bold text-slate-400 uppercase\">Aadhar Back</span>"
+      },
+      {
+        "selector": ".mt-12",
+        "code": "<p class=\"text-center mt-12 text-[10px] text-slate-400 font-black uppercase tracking-[0.4em] flex items-center justify-center gap-2\">"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/kyc",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:text-white:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:text-white:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:text-white:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:text-white:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/kyc",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/kyc",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/privacy",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".border-slate-50",
+        "code": "<div class=\"p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium flex items-center gap-2\">"
+      },
+      {
+        "selector": ".text-slate-400.uppercase",
+        "code": "<p class=\"text-slate-400 font-bold uppercase\">SEBI Registration Research Analyst</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/privacy",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/privacy",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Our Promise</h3>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; .tracking-widest",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/privacy",
+    "rule": "Document should not have more than one contentinfo landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/privacy",
+    "rule": "Document should have one main landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "html",
+        "code": "<html lang=\"en\" style=\"scroll-behavior: auto;\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/privacy",
+    "rule": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".min-h-screen &gt; footer",
+        "code": "<footer class=\"py-10 bg-white border-t border-slate-100\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/privacy",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".h-\\[400px\\]",
+        "code": "<section class=\"relative h-[400px] md:h-[480px] w-full bg-[#020617] overflow-hidden mt-24 md:mt-28 \">"
+      },
+      {
+        "selector": "h3",
+        "code": "<h3 class=\"text-sm font-black uppercase tracking-widest text-blue-400 mb-2\">Our Promise</h3>"
+      },
+      {
+        "selector": ".mb-4",
+        "code": "<h4 class=\"text-2xl font-bold mb-4\">HighRise Research</h4>"
+      },
+      {
+        "selector": ".space-y-4.text-slate-300.leading-relaxed",
+        "code": "<div class=\"space-y-4 text-slate-300 text-sm leading-relaxed\">"
+      },
+      {
+        "selector": ".text-lg.mb-2",
+        "code": "<h4 class=\"text-lg font-bold text-slate-900 mb-2\">Layered Safeguards</h4>"
+      },
+      {
+        "selector": ".mb-6.leading-relaxed.font-medium",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed font-medium mb-6\">We maintain rigorous physical, electronic, and procedural safeguards to protect your personal information. All your specific account information is highly password-protected.</p>"
+      },
+      {
+        "selector": ".border-slate-50",
+        "code": "<div class=\"p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium flex items-center gap-2\">"
+      },
+      {
+        "selector": ".border-emerald-100 &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3 relative z-10\">Data Integrity</h4>"
+      },
+      {
+        "selector": ".border-emerald-100 &gt; .leading-relaxed.font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed font-medium relative z-10\">Your personal information will <span class=\"text-slate-900 font-bold\">never</span> be rented, sold, exchanged, given, or transferred to any third party person or company without your direct consent or valid reason.</p>"
+      },
+      {
+        "selector": ".p-8.rounded-\\[2rem\\].lg\\:col-span-4:nth-child(4) &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3\">Service Focus</h4>"
+      },
+      {
+        "selector": ".p-8.rounded-\\[2rem\\].lg\\:col-span-4:nth-child(4) &gt; .leading-relaxed.font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed font-medium\">Information provided by you will solely be used for rendering the precise services for which you have actively subscribed with us, and not for any other outside purposes.</p>"
+      },
+      {
+        "selector": ".p-8.rounded-\\[2rem\\].lg\\:col-span-4:nth-child(5) &gt; .text-xl.mb-3",
+        "code": "<h4 class=\"text-xl font-bold text-slate-900 mb-3\">Polls &amp; Contests</h4>"
+      },
+      {
+        "selector": ".p-8.rounded-\\[2rem\\].lg\\:col-span-4:nth-child(5) &gt; .leading-relaxed.font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 leading-relaxed font-medium\">We may occasionally invite you to participate in polls, contests, or feedback strings. Replying to such outreach or participating in these interactions is entirely voluntary with no obligations.</p>"
+      },
+      {
+        "selector": ".text-2xl.font-black",
+        "code": "<h4 class=\"text-2xl font-black text-slate-900\">Communication <br>&amp; DND Policies</h4>"
+      },
+      {
+        "selector": ".md\\:col-span-1 &gt; .font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 font-medium\">By submitting your active details on this site, you acknowledge and agree to our direct outreach protocols.</p>"
+      },
+      {
+        "selector": ".p-5.border-slate-100.rounded-xl:nth-child(1) &gt; .mb-2.gap-2.items-center &gt; .text-slate-900",
+        "code": "<p class=\"text-sm font-bold text-slate-900\">SMS &amp; Calling Authorization</p>"
+      },
+      {
+        "selector": ".p-5.border-slate-100.rounded-xl:nth-child(1) &gt; .leading-relaxed.font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 font-medium leading-relaxed\">Registering implies you are authorizing us to reach out via SMS and voice calls whenever natively needed to properly facilitate your active services.</p>"
+      },
+      {
+        "selector": ".p-5.border-slate-100.rounded-xl:nth-child(2) &gt; .mb-2.gap-2.items-center &gt; .text-slate-900",
+        "code": "<p class=\"text-sm font-bold text-slate-900\">DND Registry Override</p>"
+      },
+      {
+        "selector": ".p-5.border-slate-100.rounded-xl:nth-child(2) &gt; .leading-relaxed.font-medium.text-slate-500",
+        "code": "<p class=\"text-sm text-slate-500 font-medium leading-relaxed\">We reserve the right to contact you via SMS notifications, even if your specific mobile number is actively registered under the national Do Not Disturb (DND) facility.</p>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/terms",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".text-xs &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/terms",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/terms",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".text-rose-900",
+        "code": "<h4 class=\"text-lg font-bold text-rose-900 mb-3\">No Trade Execution</h4>"
+      },
+      {
+        "selector": ".gap-6.items-start.flex:nth-child(1) &gt; div:nth-child(2) &gt; .text-slate-900",
+        "code": "<h4 class=\"font-bold text-slate-900\">Internal Resolution</h4>"
+      },
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; .tracking-widest",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/terms",
+    "rule": "Document should have one main landmark",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": "html",
+        "code": "<html lang=\"en\" style=\"scroll-behavior: auto;\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/terms",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      },
+      {
+        "selector": ".h-\\[400px\\]",
+        "code": "<section class=\"relative h-[400px] md:h-[480px] w-full bg-[#020617] overflow-hidden mt-24 md:mt-28 \">"
+      },
+      {
+        "selector": ".lg\\:col-span-8.border-slate-100.rounded-\\[2rem\\] &gt; .mb-6.gap-3.items-center &gt; .text-2xl",
+        "code": "<h2 class=\"text-2xl font-bold\">Disciplinary History</h2>"
+      },
+      {
+        "selector": ".space-y-4.leading-relaxed.text-slate-600",
+        "code": "<div class=\"space-y-4 text-sm text-slate-600 font-medium leading-relaxed\">"
+      },
+      {
+        "selector": ".z-10.relative &gt; .mb-6.gap-3.items-center &gt; .text-2xl",
+        "code": "<h2 class=\"text-2xl font-bold\">Associates</h2>"
+      },
+      {
+        "selector": ".z-10.relative &gt; .text-slate-400.font-medium",
+        "code": "<p class=\"text-slate-400 text-sm font-medium\">Currently, HighRise Research has <span class=\"text-white font-bold text-lg block mt-2\">No Associates.</span></p>"
+      },
+      {
+        "selector": ".mb-8.gap-3.items-center &gt; .text-2xl",
+        "code": "<h2 class=\"text-2xl font-bold\">Regulatory Disclosures</h2>"
+      },
+      {
+        "selector": ".gap-x-12",
+        "code": "<div class=\"grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6\">"
+      },
+      {
+        "selector": ".text-3xl",
+        "code": "<h2 class=\"text-3xl font-black uppercase tracking-tight\">Most Important Terms</h2>"
+      },
+      {
+        "selector": ".lg\\:grid-cols-3",
+        "code": "<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6\">"
+      },
+      {
+        "selector": ".lg\\:col-span-8.p-10.rounded-\\[2\\.5rem\\]",
+        "code": "<div class=\"lg:col-span-8 p-10 bg-white border border-slate-100 rounded-[2.5rem] shadow-sm\" style=\"opacity: 1; transform: none;\">"
+      },
+      {
+        "selector": ".text-xl",
+        "code": "<h4 class=\"text-xl font-bold text-indigo-900 mb-3\">AI Use Disclosure</h4>"
+      },
+      {
+        "selector": ".text-indigo-800\\/80",
+        "code": "<p class=\"text-sm text-indigo-800/80 font-medium leading-relaxed\">In compliance with SEBI guidelines, we declare that **no Artificial Intelligence (AI) tools** are currently used in our research preparation. All outputs are derived via **human analysis.**</p>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/alerts",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".bg-\\[\\#0f172a\\]\\/50.backdrop-blur-xl.rounded-\\[2\\.5rem\\]:nth-child(1) &gt; .font-medium.leading-relaxed.text-slate-500",
+        "code": "<p class=\"text-slate-500 text-sm leading-relaxed font-medium\">Our service delivery is strictly via SMS only. HighRise Research does not use WhatsApp, Telegram, or any other social media platforms for service delivery or research tips.</p>"
+      },
+      {
+        "selector": ".bg-\\[\\#0f172a\\]\\/50.backdrop-blur-xl.rounded-\\[2\\.5rem\\]:nth-child(2) &gt; .font-medium.leading-relaxed.text-slate-500",
+        "code": "<p class=\"text-slate-500 text-sm leading-relaxed font-medium\">Always verify our SEBI Registration details (INH000009427) directly on the SEBI official website before entering into any transaction.</p>"
+      },
+      {
+        "selector": ".bg-\\[\\#0f172a\\]\\/50.backdrop-blur-xl.rounded-\\[2\\.5rem\\]:nth-child(3) &gt; .font-medium.leading-relaxed.text-slate-500",
+        "code": "<p class=\"text-slate-500 text-sm leading-relaxed font-medium\">We never authorize any individual to collect payments in their personal bank accounts. All transactions must be made only through our official company channels.</p>"
+      },
+      {
+        "selector": ".p-6.border-white\\/10.bg-white\\/5:nth-child(1) &gt; .tracking-widest.text-slate-500.font-black",
+        "code": "<p class=\"text-sm font-black text-slate-500 uppercase tracking-widest\">Phone Support</p>"
+      },
+      {
+        "selector": ".p-6.border-white\\/10.bg-white\\/5:nth-child(2) &gt; .tracking-widest.text-slate-500.font-black",
+        "code": "<p class=\"text-sm font-black text-slate-500 uppercase tracking-widest\">Email Address</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/alerts",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/alerts",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/alerts",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-\\[10px\\].tracking-widest.font-black",
+        "code": "<span class=\"text-[10px] font-black uppercase tracking-widest\">Secure Activation</span>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Next Service</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-\\[10px\\].tracking-widest.font-black",
+        "code": "<span class=\"text-[10px] font-black uppercase tracking-widest\">Secure Activation</span>"
+      },
+      {
+        "selector": ".text-left &gt; .tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Previous Service</p>"
+      },
+      {
+        "selector": ".text-right &gt; .tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Next Service</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-\\[10px\\].tracking-widest.font-black",
+        "code": "<span class=\"text-[10px] font-black uppercase tracking-widest\">Secure Activation</span>"
+      },
+      {
+        "selector": ".text-left &gt; .tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Previous Service</p>"
+      },
+      {
+        "selector": ".text-right &gt; .tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Next Service</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-\\[10px\\].tracking-widest.font-black",
+        "code": "<span class=\"text-[10px] font-black uppercase tracking-widest\">Secure Activation</span>"
+      },
+      {
+        "selector": ".text-left &gt; .tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Previous Service</p>"
+      },
+      {
+        "selector": ".text-right &gt; .tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Next Service</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ",
+    "rule": "Elements must meet minimum color contrast ratio thresholds",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".text-\\[10px\\].tracking-widest.font-black",
+        "code": "<span class=\"text-[10px] font-black uppercase tracking-widest\">Secure Activation</span>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+        "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Previous Service</p>"
+      },
+      {
+        "selector": ".font-semibold",
+        "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>"
+      },
+      {
+        "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+        "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ",
+    "rule": "Links must have discernible text",
+    "impact": "Serious",
+    "elements": [
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(1)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(2)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(3)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      },
+      {
+        "selector": ".p-2.rounded-lg.hover\\:border-blue-500:nth-child(4)",
+        "code": "<a href=\"#\" class=\"p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-blue-500 hover:text-white transition-all\">"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ",
+    "rule": "Heading levels should only increase by one",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".lg\\:col-span-2.space-y-6:nth-child(2) &gt; h4",
+        "code": "<h4 class=\"text-sm font-bold text-white uppercase tracking-widest\">Company</h4>"
+      }
+    ]
+  },
+  {
+    "page": "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ",
+    "rule": "All page content should be contained by landmarks",
+    "impact": "Best Practice",
+    "elements": [
+      {
+        "selector": ".right-full",
+        "code": "<div class=\"absolute right-full mr-4 bg-white text-slate-900 px-4 py-2 rounded-xl border border-slate-100 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap font-bold text-sm hidden md:block\">Chat with us!</div>"
+      }
+    ]
+  }
+]

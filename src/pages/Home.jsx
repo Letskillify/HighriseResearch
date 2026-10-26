@@ -12,7 +12,7 @@ import Contact from '../Components/home/Contact';
 
 const Home = () => {
   return (
-    <main className="bg-[#f7f7f5] text-[#111827]">
+    <main id="main-content" className="bg-[#f7f7f5] text-[#111827]">
       <HeroSection />
       <About />
       <ServicesSection />

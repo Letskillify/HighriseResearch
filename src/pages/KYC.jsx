@@ -111,7 +111,7 @@ const KYC = () => {
   `;
 
   return (
-    <main className="bg-slate-50 min-h-screen text-slate-900 pb-24">
+    <main id="main-content" className="bg-slate-50 min-h-screen text-slate-900 pb-24">
       <PageHero 
         title="KYC & Agreement" 
         subtitle="Verification & Compliance"
@@ -138,10 +138,11 @@ const KYC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Full Name */}
               <div className="space-y-2">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Full Name (As Per PAN Card) *</label>
+                <label htmlFor="kyc-fullName" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Full Name (As Per PAN Card) *</label>
                 <div className="relative">
                   <User size={18} className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400" />
                   <input 
+                    id="kyc-fullName"
                     type="text" 
                     name="fullName"
                     value={formData.fullName}
@@ -157,8 +158,9 @@ const KYC = () => {
 
               {/* Father Name */}
               <div className="space-y-2">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Father's Name *</label>
+                <label htmlFor="kyc-fatherName" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Father's Name *</label>
                 <input 
+                  id="kyc-fatherName"
                   type="text" 
                   name="fatherName"
                   value={formData.fatherName}
@@ -173,10 +175,11 @@ const KYC = () => {
 
               {/* Mobile Number */}
               <div className="space-y-2">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Mobile Number *</label>
+                <label htmlFor="kyc-mobile" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Mobile Number *</label>
                 <div className="relative">
                   <Phone size={18} className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400" />
                   <input 
+                    id="kyc-mobile"
                     type="tel" 
                     name="mobile"
                     value={formData.mobile}
@@ -192,10 +195,11 @@ const KYC = () => {
 
               {/* Email */}
               <div className="space-y-2">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Email Address *</label>
+                <label htmlFor="kyc-email" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Email Address *</label>
                 <div className="relative">
                   <Mail size={18} className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400" />
                   <input 
+                    id="kyc-email"
                     type="email" 
                     name="email"
                     value={formData.email}
@@ -211,12 +215,14 @@ const KYC = () => {
 
               {/* DOB */}
               <div className="space-y-2">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Date of Birth *</label>
+                <label htmlFor="kyc-dob" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Date of Birth *</label>
                 <div className="relative">
                   <Calendar size={18} className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400" />
                   <input 
+                    id="kyc-dob"
                     type="date" 
                     name="dob"
+                    aria-label="Date of Birth"
                     value={formData.dob}
                     onChange={handleInputChange}
                     onFocus={() => setActiveField('dob')}
@@ -229,10 +235,11 @@ const KYC = () => {
 
               {/* PAN Number */}
               <div className="space-y-2">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">PAN Card Number *</label>
+                <label htmlFor="kyc-panNumber" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">PAN Card Number *</label>
                 <div className="relative">
                   <CreditCard size={18} className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400" />
                   <input 
+                    id="kyc-panNumber"
                     type="text" 
                     name="panNumber"
                     value={formData.panNumber}
@@ -249,10 +256,11 @@ const KYC = () => {
 
             {/* Address */}
             <div className="space-y-2">
-              <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Address (As Per Aadhar Card) *</label>
+              <label htmlFor="kyc-address" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Address (As Per Aadhar Card) *</label>
               <div className="relative">
                 <MapPin size={18} className="absolute left-6 top-6 text-slate-400" />
                 <textarea 
+                  id="kyc-address"
                   name="address"
                   rows="3"
                   value={formData.address}
@@ -279,11 +287,12 @@ const KYC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* PAN Upload */}
               <div className="space-y-3">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">PAN Card Upload *</label>
+                <label htmlFor="pan-upload" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">PAN Card Upload *</label>
                 <div className="relative group">
                   <input 
                     type="file" 
                     name="panUpload"
+                    aria-label="Upload PAN Card image"
                     onChange={handleFileChange}
                     accept="image/*"
                     required
@@ -301,8 +310,8 @@ const KYC = () => {
                       </div>
                     ) : (
                       <div className="flex flex-col items-center gap-2">
-                        <Upload size={32} className="text-slate-300 group-hover:text-blue-500 transition-colors" />
-                        <span className="text-[10px] font-bold text-slate-400 uppercase">Upload PAN</span>
+                        <Upload size={32} className="text-slate-400 group-hover:text-blue-500 transition-colors" />
+                        <span className="text-[10px] font-bold text-slate-600 uppercase">Upload PAN</span>
                       </div>
                     )}
                   </label>
@@ -311,11 +320,12 @@ const KYC = () => {
 
               {/* Aadhar Front */}
               <div className="space-y-3">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Aadhar Front *</label>
+                <label htmlFor="aadhar-front" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Aadhar Front *</label>
                 <div className="relative group">
                   <input 
                     type="file" 
                     name="aadharFront"
+                    aria-label="Upload Aadhar Card front image"
                     onChange={handleFileChange}
                     accept="image/*"
                     required
@@ -333,8 +343,8 @@ const KYC = () => {
                       </div>
                     ) : (
                       <div className="flex flex-col items-center gap-2">
-                        <Upload size={32} className="text-slate-300 group-hover:text-blue-500 transition-colors" />
-                        <span className="text-[10px] font-bold text-slate-400 uppercase">Aadhar Front</span>
+                        <Upload size={32} className="text-slate-400 group-hover:text-blue-500 transition-colors" />
+                        <span className="text-[10px] font-bold text-slate-600 uppercase">Aadhar Front</span>
                       </div>
                     )}
                   </label>
@@ -343,11 +353,12 @@ const KYC = () => {
 
               {/* Aadhar Back */}
               <div className="space-y-3">
-                <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Aadhar Back *</label>
+                <label htmlFor="aadhar-back" className="text-[11px] font-black text-slate-700 uppercase tracking-widest ml-1">Aadhar Back *</label>
                 <div className="relative group">
                   <input 
                     type="file" 
                     name="aadharBack"
+                    aria-label="Upload Aadhar Card back image"
                     onChange={handleFileChange}
                     accept="image/*"
                     required
@@ -365,8 +376,8 @@ const KYC = () => {
                       </div>
                     ) : (
                       <div className="flex flex-col items-center gap-2">
-                        <Upload size={32} className="text-slate-300 group-hover:text-blue-500 transition-colors" />
-                        <span className="text-[10px] font-bold text-slate-400 uppercase">Aadhar Back</span>
+                        <Upload size={32} className="text-slate-400 group-hover:text-blue-500 transition-colors" />
+                        <span className="text-[10px] font-bold text-slate-600 uppercase">Aadhar Back</span>
                       </div>
                     )}
                   </label>
@@ -408,7 +419,7 @@ const KYC = () => {
             </div>
           </form>
 
-          <p className="text-center mt-12 text-[10px] text-slate-400 font-black uppercase tracking-[0.4em] flex items-center justify-center gap-2">
+          <p className="text-center mt-12 text-[10px] text-slate-600 font-black uppercase tracking-[0.4em] flex items-center justify-center gap-2">
             <Lock size={14} /> End-to-End Encrypted Verification
           </p>
         </motion.div>

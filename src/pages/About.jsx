@@ -35,7 +35,7 @@ const About = () => {
   ];
 
   return (
-    <main className="bg-white text-slate-900 overflow-x-hidden">
+    <main id="main-content" className="bg-white text-slate-900 overflow-x-hidden">
       <PageHero
         title="About Us."
         subtitle="Bringing Discipline, Clarity, and Structure to Trading"
@@ -77,7 +77,7 @@ const About = () => {
             <div className="absolute -bottom-8 -left-8 bg-blue-600 p-8 rounded-[2rem] text-white shadow-xl hidden md:block">
               <TrendingUp size={48} className="mb-4" />
               <p className="text-2xl font-black">10 Years</p>
-              <p className="text-blue-100 font-medium">Market Experience</p>
+              <p className="text-white font-semibold">Market Experience</p>
             </div>
           </motion.div>
         </div>
@@ -105,7 +105,7 @@ const About = () => {
                 <BarChart3 className="text-white" size={28} />
               </div>
               <h3 className="text-2xl font-bold mb-4">Index Futures</h3>
-              <p className="text-slate-400 mb-6">Nifty 50 & Bank Nifty Intraday Strategies focused on trend momentum and key levels.</p>
+              <p className="text-slate-300 mb-6">Nifty 50 & Bank Nifty Intraday Strategies focused on trend momentum and key levels.</p>
               <div className="flex items-center gap-2 text-blue-400 font-bold">
                 <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
                 Intraday Precision
@@ -119,7 +119,7 @@ const About = () => {
                 <Layers className="text-white" size={28} />
               </div>
               <h3 className="text-2xl font-bold mb-4">Index Options</h3>
-              <p className="text-slate-400 mb-6">Focused Buy Signals in Call & Put Options, primarily utilizing ITM (In-The-Money) strikes for better risk-reward.</p>
+              <p className="text-slate-300 mb-6">Focused Buy Signals in Call & Put Options, primarily utilizing ITM (In-The-Money) strikes for better risk-reward.</p>
               <div className="flex items-center gap-2 text-blue-400 font-bold">
                 <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
                 ITM Focused
@@ -225,7 +225,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-16">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-black mb-6 tracking-tight">Our Structured Framework</h2>
-            <p className="text-slate-400 text-lg">Every recommendation goes through a rigorous four-step process.</p>
+            <p className="text-slate-300 text-lg">Every recommendation goes through a rigorous four-step process.</p>
           </div>
           <div className="grid md:grid-cols-4 gap-8 relative">
             <div className="absolute top-1/2 left-0 w-full h-0.5 bg-slate-800 hidden lg:block -z-0"></div>
@@ -238,7 +238,7 @@ const About = () => {
                   {index + 1}
                 </div>
                 <h3 className="text-xl font-bold mb-4">{step.title}</h3>
-                <p className="text-slate-400 text-sm leading-relaxed">{step.desc}</p>
+                <p className="text-slate-300 text-sm leading-relaxed">{step.desc}</p>
               </div>
             ))}
           </div>

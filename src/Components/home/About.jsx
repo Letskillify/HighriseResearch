@@ -129,7 +129,7 @@ const About = () => {
                   </motion.div>
                   <div>
                     <h5 className="font-bold text-slate-900 text-lg mb-0.5">{item.title}</h5>
-                    <p className="text-slate-500 text-sm leading-relaxed">{item.desc}</p>
+                    <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
                   </div>
                 </motion.div>
               ))}
@@ -142,7 +142,7 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
             >
-              <Link to="/about">
+              <Link to="/about" aria-label="Read more about HighRise Research">
                 <motion.button
                   className="relative flex items-center gap-2 px-10 py-4 bg-slate-900 text-white rounded-full font-bold shadow-lg shadow-slate-200 overflow-hidden group transition-all duration-300"
                   whileHover={{
@@ -151,6 +151,7 @@ const About = () => {
                     boxShadow: '0 25px 50px -12px rgba(37, 99, 235, 0.3)'
                   }}
                   whileTap={{ scale: 0.95 }}
+                  aria-label="Read more about HighRise Research"
                 >
                   {/* Shine effect */}
                   <span className="absolute inset-0 overflow-hidden rounded-full">

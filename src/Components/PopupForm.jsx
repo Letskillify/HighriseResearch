@@ -100,9 +100,10 @@ const PopupForm = () => {
                         {/* Close Button */}
                         <button
                             onClick={closePopup}
+                            aria-label="Close consultation modal"
                             className="absolute top-6 right-6 p-2 rounded-full hover:bg-slate-100 transition-colors z-10"
                         >
-                            <X size={20} className="text-slate-400" />
+                            <X size={20} className="text-slate-500" />
                         </button>
 
                         <div className="p-8 pt-12">
@@ -110,17 +111,18 @@ const PopupForm = () => {
                                 <h3 className="text-3xl font-black text-slate-900 tracking-tight mb-2">
                                     Get <span className="text-blue-600">Free</span> Consultation
                                 </h3>
-                                <p className="text-slate-500 font-medium">Leave your details and we'll reach out to you.</p>
+                                <p className="text-slate-600 font-medium">Leave your details and we'll reach out to you.</p>
                             </div>
 
                             <form onSubmit={handleSubmit} className="space-y-5">
                                 <div className="space-y-1.5">
-                                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Full Name</label>
+                                    <label htmlFor="popup-name" className="text-[10px] font-black text-slate-600 uppercase tracking-widest ml-1">Full Name</label>
                                     <div className="relative">
                                         <div className="absolute left-5 top-1/2 -translate-y-1/2 text-slate-400">
                                             <User size={18} />
                                         </div>
                                         <input
+                                            id="popup-name"
                                             type="text"
                                             name="name"
                                             value={formData.name}
@@ -133,12 +135,13 @@ const PopupForm = () => {
                                 </div>
 
                                 <div className="space-y-1.5">
-                                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Mobile Number</label>
+                                    <label htmlFor="popup-mobile" className="text-[10px] font-black text-slate-600 uppercase tracking-widest ml-1">Mobile Number</label>
                                     <div className="relative">
                                         <div className="absolute left-5 top-1/2 -translate-y-1/2 text-slate-400">
                                             <Phone size={18} />
                                         </div>
                                         <input
+                                            id="popup-mobile"
                                             type="tel"
                                             name="mobile"
                                             value={formData.mobile}
@@ -151,12 +154,13 @@ const PopupForm = () => {
                                 </div>
 
                                 <div className="space-y-1.5">
-                                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1">Email ID</label>
+                                    <label htmlFor="popup-email" className="text-[10px] font-black text-slate-600 uppercase tracking-widest ml-1">Email ID</label>
                                     <div className="relative">
                                         <div className="absolute left-5 top-1/2 -translate-y-1/2 text-slate-400">
                                             <Mail size={18} />
                                         </div>
                                         <input
+                                            id="popup-email"
                                             type="email"
                                             name="email"
                                             value={formData.email}
@@ -181,7 +185,7 @@ const PopupForm = () => {
                                 </button>
                             </form>
                             
-                            <p className="mt-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest">
+                            <p className="mt-6 text-center text-[10px] text-slate-600 font-bold uppercase tracking-widest">
                                 * Your data is safe with us
                             </p>
                         </div>

@@ -18,6 +18,7 @@ const WhatsAppButton = () => {
             whileTap={{ scale: 0.9 }}
             className="fixed bottom-8 right-8 z-[9998] w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-[0_10px_25px_rgba(37,211,102,0.3)] hover:shadow-[0_15px_30px_rgba(37,211,102,0.4)] transition-shadow group"
             title="Chat on WhatsApp"
+            aria-label="Chat on WhatsApp"
         >
             <MessageCircle size={28} className="fill-current" />
             

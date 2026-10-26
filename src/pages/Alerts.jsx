@@ -23,7 +23,7 @@ const Alerts = () => {
   ];
 
   return (
-    <main className="bg-[#020617] min-h-screen text-white pb-24">
+    <main id="main-content" className="bg-[#020617] min-h-screen text-white pb-24">
       <PageHero 
         title="Fraud Alert" 
         subtitle="Protect Your Investments"
@@ -43,13 +43,13 @@ const Alerts = () => {
             </div>
             
             <div className="relative z-10">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20 text-red-500 text-xs font-black uppercase tracking-widest mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-black uppercase tracking-widest mb-6">
                 <ShieldAlert size={14} /> Critical Security Notice
               </div>
               
               <h2 className="text-3xl md:text-5xl font-black tracking-tight mb-8">Be Aware of Frauds</h2>
               
-              <div className="space-y-6 text-slate-400 text-lg leading-relaxed font-medium">
+              <div className="space-y-6 text-slate-300 text-lg leading-relaxed font-medium">
                 <p>
                   It has been brought to our attention that some fraudulent individuals are misusing our 
                   <span className="text-white font-bold ml-1">SEBI Registration Number (INH000009427)</span>, 
@@ -80,7 +80,7 @@ const Alerts = () => {
                   {point.icon}
                 </div>
                 <h3 className="text-xl font-black mb-4 tracking-tight">{point.title}</h3>
-                <p className="text-slate-500 text-sm leading-relaxed font-medium">{point.description}</p>
+                <p className="text-slate-300 text-sm leading-relaxed font-medium">{point.description}</p>
               </motion.div>
             ))}
           </div>
@@ -94,7 +94,7 @@ const Alerts = () => {
               
               <div>
                 <h2 className="text-3xl font-black mb-4 tracking-tight">Report Suspicious Activity</h2>
-                <p className="text-slate-400 font-medium leading-relaxed">
+                <p className="text-slate-300 font-medium leading-relaxed">
                   If you have encountered any fraudulent activities or believe scammers have targeted you, please report them immediately through our official channels.
                 </p>
               </div>
@@ -102,17 +102,17 @@ const Alerts = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-6 rounded-2xl bg-white/5 border border-white/10 flex flex-col items-center gap-3">
                   <Phone className="text-blue-500" />
-                  <p className="text-sm font-black text-slate-500 uppercase tracking-widest">Phone Support</p>
+                  <p className="text-sm font-black text-slate-300 uppercase tracking-widest">Phone Support</p>
                   <p className="text-lg font-bold">+91 90986 93674</p>
                 </div>
                 <div className="p-6 rounded-2xl bg-white/5 border border-white/10 flex flex-col items-center gap-3">
                   <Mail className="text-blue-500" />
-                  <p className="text-sm font-black text-slate-500 uppercase tracking-widest">Email Address</p>
+                  <p className="text-sm font-black text-slate-300 uppercase tracking-widest">Email Address</p>
                   <p className="text-lg font-bold">pavanraghuvanshi2014@gmail.com</p>
                 </div>
               </div>
 
-              <div className="flex items-center justify-center gap-3 px-6 py-4 rounded-2xl bg-amber-500/5 border border-amber-500/20 text-amber-500">
+              <div className="flex items-center justify-center gap-3 px-6 py-4 rounded-2xl bg-amber-500/5 border border-amber-500/20 text-amber-400">
                 <Info size={20} />
                 <span className="text-xs font-black uppercase tracking-[0.2em]">Official SEBI Check: Visit sebi.gov.in</span>
               </div>

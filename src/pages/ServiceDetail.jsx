@@ -52,7 +52,7 @@ const ServiceDetail = () => {
    }
 
    return (
-      <main className="bg-white min-h-screen  pb-12 text-slate-800">
+      <main id="main-content" className="bg-white min-h-screen  pb-12 text-slate-800">
          <PageHero
             title={service.title}
             subtitle={service.shortDesc}
@@ -93,7 +93,7 @@ const ServiceDetail = () => {
                         <h3 className="text-3xl font-black text-slate-900 tracking-tight">Access Premium Research</h3>
                         <p className="text-slate-500 font-medium">Choose a plan that fits your trading style</p>
                      </div>
-                     <div className="hidden md:flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-600 rounded-full border border-emerald-100">
+                     <div className="hidden md:flex items-center gap-2 px-4 py-2 bg-emerald-50 text-emerald-800 rounded-full border border-emerald-200">
                         <ShieldCheck size={16} />
                         <span className="text-[10px] font-black uppercase tracking-widest">Secure Activation</span>
                      </div>
@@ -159,16 +159,17 @@ const ServiceDetail = () => {
                         <Link
                            to={`/services/${allServices[currentIndex - 1].id}`}
                            className="flex-1 group"
+                           aria-label={`Previous service: ${allServices[currentIndex - 1].title}`}
                         >
                            <motion.div
                               whileHover={{ x: -10 }}
                               className="p-6 md:p-8 bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all flex items-center gap-6"
                            >
-                              <div className="w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                              <div className="w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center text-slate-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                  <ChevronLeft size={24} />
                               </div>
                               <div className="text-left">
-                                 <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Previous Service</p>
+                                 <p className="text-[10px] font-black text-slate-600 uppercase tracking-[0.2em] mb-1">Previous Service</p>
                                  <h4 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">{allServices[currentIndex - 1].title}</h4>
                               </div>
                            </motion.div>
@@ -179,16 +180,17 @@ const ServiceDetail = () => {
                         <Link
                            to={`/services/${allServices[currentIndex + 1].id}`}
                            className="flex-1 group"
+                           aria-label={`Next service: ${allServices[currentIndex + 1].title}`}
                         >
                            <motion.div
                               whileHover={{ x: 10 }}
                               className="p-6 md:p-8 bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl transition-all flex items-center justify-between gap-6"
                            >
                               <div className="text-right flex-1">
-                                 <p className="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1">Next Service</p>
+                                 <p className="text-[10px] font-black text-slate-600 uppercase tracking-[0.2em] mb-1">Next Service</p>
                                  <h4 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">{allServices[currentIndex + 1].title}</h4>
                               </div>
-                              <div className="w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                              <div className="w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center text-slate-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                  <ChevronRight size={24} />
                               </div>
                            </motion.div>

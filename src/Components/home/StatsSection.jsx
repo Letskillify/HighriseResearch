@@ -104,7 +104,7 @@ const Stats = () => {
                   </div>
 
                   {/* Label */}
-                  <p className="mt-1 md:mt-2 text-[10px] md:text-xs font-semibold text-slate-400 uppercase tracking-wider truncate">
+                  <p className="mt-1 md:mt-2 text-[10px] md:text-xs font-semibold text-slate-600 uppercase tracking-wider truncate">
                     {stat.label}
                   </p>
                 </div>

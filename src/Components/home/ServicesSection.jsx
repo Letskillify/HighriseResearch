@@ -108,7 +108,7 @@ const ServiceCard = ({ service, index }) => {
       {/* Footer Info */}
       <div className="mt-10 flex items-center gap-3 overflow-hidden">
         <div className="h-[1px] w-8 bg-slate-200 group-hover:w-12 group-hover:bg-blue-600 transition-all duration-500" />
-        <span className="text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors">
+        <span className="text-xs font-black uppercase tracking-[0.2em] text-slate-600 group-hover:text-slate-900 transition-colors">
           View Strategy
         </span>
       </div>

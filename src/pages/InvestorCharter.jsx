@@ -22,7 +22,7 @@ const InvestorCharter = () => {
   };
 
   return (
-    <div className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900">
+    <main id="main-content" className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900">
       <PageHero
         title="Investor Charter"
         subtitle="Your Rights and Our Responsibilities as a SEBI Registration Research Analyst."
@@ -342,19 +342,7 @@ const InvestorCharter = () => {
       </section>
 
 
-      {/* 5. FOOTER NOTICE */}
-      <footer className="py-10 bg-slate-900 text-white border-t border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium text-slate-500">
-          <p>© 2026 HighRise Research. All Rights Reserved.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition">Terms of Service</a>
-            <a href="#" className="hover:text-white transition">SEBI Registration</a>
-          </div>
-        </div>
-      </footer>
-
-    </div>
+    </main>
   );
 };
 

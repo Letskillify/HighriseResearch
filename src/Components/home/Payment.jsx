@@ -81,7 +81,7 @@ const PaymentSection = () => {
                     <h3 className="text-2xl font-bold text-slate-900">
                       Quick Scan
                     </h3>
-                    <p className="text-xs text-slate-400 font-bold uppercase tracking-widest">
+                    <p className="text-xs text-slate-600 font-bold uppercase tracking-widest">
                       UPI Payment
                     </p>
                   </div>
@@ -102,7 +102,7 @@ const PaymentSection = () => {
                 </div>
 
                 <div className="mt-auto space-y-4">
-                  <p className="text-center text-[11px] text-slate-400 font-medium">
+                  <p className="text-center text-[11px] text-slate-600 font-medium">
                     Supports Google Pay, PhonePe, Paytm & BHIM
                   </p>
                 </div>
@@ -161,6 +161,7 @@ const PaymentSection = () => {
                     </div>
                     <button
                       onClick={() => handleCopy(bankDetails.accountName, "name")}
+                      aria-label="Copy account holder name"
                       className="w-fit p-3 rounded-xl bg-white/5 text-white/60 hover:text-white hover:bg-white/10 transition"
                     >
                       {copied === "name" ? (
@@ -181,6 +182,7 @@ const PaymentSection = () => {
                           onClick={() =>
                             handleCopy(bankDetails.accountNumber, "acc")
                           }
+                          aria-label="Copy account number"
                           className="text-white/40 hover:text-white transition"
                         >
                           {copied === "acc" ? (
@@ -202,6 +204,7 @@ const PaymentSection = () => {
                         </p>
                         <button
                           onClick={() => handleCopy(bankDetails.ifsc, "ifsc")}
+                          aria-label="Copy IFSC code"
                           className="text-white/40 hover:text-white transition"
                         >
                           {copied === "ifsc" ? (

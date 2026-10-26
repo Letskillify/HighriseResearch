@@ -18,7 +18,7 @@ const TermsAndConditions = () => {
   };
 
   return (
-    <div className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
+    <main id="main-content" className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
       
       {/* 1. HERO SECTION */}
       <PageHero 
@@ -54,7 +54,7 @@ const TermsAndConditions = () => {
                 <UserCheck size={24} className="text-blue-400"/>
                 <h2 className="text-2xl font-bold">Associates</h2>
               </div>
-              <p className="text-slate-400 text-sm font-medium">Currently, HighRise Research has <span className="text-white font-bold text-lg block mt-2">No Associates.</span></p>
+              <p className="text-slate-200 text-sm font-medium">Currently, HighRise Research has <span className="text-white font-bold text-lg block mt-2">No Associates.</span></p>
              </div>
              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-blue-600/20 blur-3xl" />
           </motion.div>
@@ -153,7 +153,7 @@ const TermsAndConditions = () => {
           <motion.div variants={itemVariants} className="lg:col-span-4 p-8 bg-indigo-50 border border-indigo-100 rounded-[2.5rem] flex flex-col justify-center text-center">
             <Cpu className="mx-auto text-indigo-600 mb-4" size={40} />
             <h4 className="text-xl font-bold text-indigo-900 mb-3">AI Use Disclosure</h4>
-            <p className="text-sm text-indigo-800/80 font-medium leading-relaxed">
+            <p className="text-sm text-indigo-950 font-medium leading-relaxed">
               In compliance with SEBI guidelines, we declare that **no Artificial Intelligence (AI) tools** are currently used in our research preparation. All outputs are derived via **human analysis.**
             </p>
           </motion.div>
@@ -163,7 +163,7 @@ const TermsAndConditions = () => {
 
       {/* FOOTER DISCLOSURE */}
       
-    </div>
+    </main>
   );
 };
 

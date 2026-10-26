@@ -22,7 +22,7 @@ const Disclaimer = () => {
   };
 
   return (
-    <div className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
+    <main id="main-content" className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
 
       {/* 1. HERO SECTION */}
       <PageHero
@@ -164,9 +164,9 @@ const Disclaimer = () => {
                   </div>
                   <div className="space-y-4 text-sm text-slate-600 font-medium">
                     <p>We consider ourselves and intend to be subject strictly to the jurisdiction only of the courts of <span className="font-bold text-slate-900">Indore, Madhya Pradesh, India</span>.</p>
-                    <p className="mt-4 text-sm font-bold text-slate-400">REGISTERED OFFICE: A-172 Kanak Avenue Colony, lasudiya Mori Indore</p>
+                    <p className="mt-4 text-sm font-bold text-slate-600">REGISTERED OFFICE: A-172 Kanak Avenue Colony, lasudiya Mori Indore</p>
                     <div className="mt-6 pt-6 border-t border-slate-200">
-                      <p className="text-sm uppercase font-black text-slate-400 tracking-widest mb-2">Regulatory Authority</p>
+                      <p className="text-sm uppercase font-black text-slate-600 tracking-widest mb-2">Regulatory Authority</p>
                       <p className="text-sm text-slate-500 leading-relaxed font-bold">
                         SEBI Office Details : SEBI Bhavan BKC Address : Plot No.C4-A, 'G' Block Bandra-Kurla Complex, Bandra (East), Mumbai - 400051, Maharashtra | Tel : +91-22-26449000 / 40459000 | Fax : +91-22-26449019-22 / 40459019-22 Email: sebi@sebi.gov.in | Toll Free Investor Helpline: 1800 22 7575
                       </p>
@@ -186,18 +186,7 @@ const Disclaimer = () => {
         </div>
       </section>
 
-
-      {/* 3. SUB FOOTER */}
-      <footer className="py-10 bg-white border-t border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium text-slate-500">
-          <p>© 2026 HighRise Research. All Rights Reserved.</p>
-          <div className="flex gap-6">
-            <p className="text-slate-400 font-bold uppercase tracking-widest">Compliance First</p>
-          </div>
-        </div>
-      </footer>
-
-    </div>
+    </main>
   );
 };
 

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Payment = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <main id="main-content" className="min-h-screen bg-white">
       <PageHero 
         title="Payment Gateway" 
         subtitle="Institutional Access" 
@@ -18,13 +18,13 @@ const Payment = () => {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Need help with payment?</h3>
-            <p className="text-slate-500 mb-8">If you're facing any issues or have questions regarding our payment methods, feel free to contact our support team.</p>
+            <p className="text-slate-600 mb-8">If you're facing any issues or have questions regarding our payment methods, feel free to contact our support team.</p>
             <div className="flex flex-wrap justify-center gap-4">
                 <a 
                     href="https://wa.me/919098693674" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="px-8 py-3 bg-emerald-500 text-white font-bold rounded-xl hover:bg-emerald-600 transition-colors shadow-lg shadow-emerald-500/20"
+                    className="px-8 py-3 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition-colors shadow-lg shadow-emerald-600/20"
                 >
                     WhatsApp Support
                 </a>
@@ -37,7 +37,7 @@ const Payment = () => {
             </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 };
 

@@ -17,12 +17,12 @@ const Complaints = () => {
     visible: { opacity: 1, y: 0 }
   };
 
-  const tableHeaderStyle = "px-6 py-4 text-left text-sm font-black text-slate-400 uppercase tracking-widest border-b border-slate-800";
+  const tableHeaderStyle = "px-6 py-4 text-left text-sm font-black text-slate-300 uppercase tracking-widest border-b border-slate-800";
   const tableDataStyle = "px-6 py-4 text-sm font-bold text-slate-300 border-b border-slate-800/50";
   const tableRowStyle = "hover:bg-slate-800/30 transition-colors";
 
   return (
-    <main className="bg-[#020717] min-h-screen text-white pb-24">
+    <main id="main-content" className="bg-[#020717] min-h-screen text-white pb-24">
       <PageHero 
         title="Complaints" 
         subtitle="Data & Monthly Trends"
@@ -45,7 +45,7 @@ const Complaints = () => {
               </div>
               <div>
                 <h2 className="text-3xl font-black tracking-tight">Number of Client Complaints</h2>
-                <p className="text-slate-500 font-medium">Data for the month ending March 2026</p>
+                <p className="text-slate-300 font-medium">Data for the month ending March 2026</p>
               </div>
             </div>
 
@@ -100,7 +100,7 @@ const Complaints = () => {
               </div>
               <div>
                 <h2 className="text-3xl font-black tracking-tight">Monthly Trend of Disposal</h2>
-                <p className="text-slate-500 font-medium">Detailed breakdown of complaint handling throughout 2025</p>
+                <p className="text-slate-300 font-medium">Detailed breakdown of complaint handling throughout 2025</p>
               </div>
             </div>
 
@@ -151,7 +151,7 @@ const Complaints = () => {
               </div>
               <div>
                 <h2 className="text-3xl font-black tracking-tight">Yearly Comparison</h2>
-                <p className="text-slate-500 font-medium">Complaints received and resolved annually</p>
+                <p className="text-slate-300 font-medium">Complaints received and resolved annually</p>
               </div>
             </div>
 
@@ -203,7 +203,7 @@ const Complaints = () => {
               </div>
               <div>
                 <h2 className="text-3xl font-black tracking-tight">Annual Compliance Audit</h2>
-                <p className="text-slate-500 font-medium">Status of regulatory audits over the financial years</p>
+                <p className="text-slate-300 font-medium">Status of regulatory audits over the financial years</p>
               </div>
             </div>
 
@@ -227,7 +227,7 @@ const Complaints = () => {
                       <td className={tableDataStyle}>{idx + 1}</td>
                       <td className={tableDataStyle}>{row.year}</td>
                       <td className={tableDataStyle}>
-                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-500 text-sm font-black uppercase">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-sm font-black uppercase">
                           <CheckCircle size={12} /> {row.status}
                         </span>
                       </td>
@@ -241,7 +241,7 @@ const Complaints = () => {
 
           {/* Footer Info */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 p-10 rounded-[2.5rem] bg-slate-900/30 border border-slate-800 italic">
-            <div className="flex items-center gap-4 text-slate-400">
+            <div className="flex items-center gap-4 text-slate-300">
               <AlertCircle size={20} className="text-blue-500 shrink-0" />
               <p className="text-sm font-medium leading-relaxed">
                 * Resolved includes complaints which are closed within the specified timeframes as per SEBI regulations. 

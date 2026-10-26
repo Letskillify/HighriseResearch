@@ -1,0 +1,1078 @@
+[
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".space-y-1\\.5:nth-child(1) &gt; label",
+    "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>",
+    "textPieces": [
+      "Full Name"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\Components\\PopupForm.jsx",
+      "src\\pages\\AdminSignUp.jsx",
+      "src\\pages\\Contact.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".space-y-1\\.5:nth-child(2) &gt; label",
+    "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Mobile Number</label>",
+    "textPieces": [
+      "Mobile Number"
+    ],
+    "candidateFiles": [
+      "src\\Components\\PopupForm.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".space-y-1\\.5:nth-child(3) &gt; label",
+    "code": "<label class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email ID</label>",
+    "textPieces": [
+      "Email ID"
+    ],
+    "candidateFiles": [
+      "src\\Components\\PopupForm.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".mt-6",
+    "code": "<p class=\"mt-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest\">* Your data is safe with us</p>",
+    "textPieces": [
+      "* Your data is safe with us"
+    ],
+    "candidateFiles": [
+      "src\\Components\\PopupForm.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".-bottom-10 &gt; div:nth-child(2) &gt; .text-\\[10px\\].text-slate-400.font-bold",
+    "code": "<p class=\"text-[10px] text-slate-400 font-bold uppercase\">Real-time Analysis</p>",
+    "textPieces": [
+      "Real-time Analysis"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\HeroSection.jsx"
+    ]
+  },
+  {
+    "count": 10,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".hover\\:shadow-blue-500\\/10.hover\\:shadow-2xl.border-slate-200:nth-child(1) &gt; .mt-10.gap-3.overflow-hidden &gt; .group-hover\\:text-slate-900.tracking-\\[0\\.2em\\].text-xs",
+    "code": "<span class=\"text-xs font-black uppercase tracking-[0.2em] text-slate-400 group-hover:text-slate-900 transition-colors\">View Strategy</span>",
+    "textPieces": [
+      "View Strategy"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\ServicesSection.jsx"
+    ]
+  },
+  {
+    "count": 3,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/",
+      "highriseresearch.in/payment"
+    ],
+    "selector": ".text-xs.tracking-widest.text-slate-400",
+    "code": "<p class=\"text-xs text-slate-400 font-bold uppercase tracking-widest\">UPI Payment</p>",
+    "textPieces": [
+      "UPI Payment"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Payment.jsx"
+    ]
+  },
+  {
+    "count": 3,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/",
+      "highriseresearch.in/payment"
+    ],
+    "selector": ".mt-auto &gt; .text-center.text-\\[11px\\].font-medium",
+    "code": "<p class=\"text-center text-[11px] text-slate-400 font-medium\">Supports Google Pay, PhonePe, Paytm & BHIM</p>",
+    "textPieces": [
+      "Supports Google Pay, PhonePe, Paytm & BHIM"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Payment.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".font-light.text-4xl.text-slate-400",
+    "code": "<span class=\"text-slate-400 font-light text-4xl\">Research Requirements</span>",
+    "textPieces": [
+      "Research Requirements"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".gap-5.cursor-pointer.group:nth-child(1) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+    "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Call Us</p>",
+    "textPieces": [
+      "Call Us"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".gap-5.cursor-pointer.group:nth-child(2) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+    "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Email Support</p>",
+    "textPieces": [
+      "Email Support"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\Payment.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".gap-5.cursor-pointer.group:nth-child(3) &gt; div:nth-child(2) &gt; .text-\\[10px\\].tracking-widest.text-slate-400",
+    "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-widest\">Our Office</p>",
+    "textPieces": [
+      "Our Office"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".space-y-2:nth-child(1) &gt; label",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name</label>",
+    "textPieces": [
+      "Full Name"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\Components\\PopupForm.jsx",
+      "src\\pages\\AdminSignUp.jsx",
+      "src\\pages\\Contact.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".md\\:grid-cols-2.grid.grid-cols-1 &gt; .space-y-2:nth-child(2) &gt; label",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Phone Number</label>",
+    "textPieces": [
+      "Phone Number"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": "form &gt; .space-y-2:nth-child(2) &gt; label",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email Address</label>",
+    "textPieces": [
+      "Email Address"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\AdminSignIn.jsx",
+      "src\\pages\\AdminSignUp.jsx",
+      "src\\pages\\Alerts.jsx",
+      "src\\pages\\Contact.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": ".space-y-2:nth-child(3) &gt; label",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Your Message</label>",
+    "textPieces": [
+      "Your Message"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/"
+    ],
+    "selector": "form &gt; .text-center.text-\\[11px\\].font-medium",
+    "code": "<p class=\"text-center text-[11px] text-slate-400 font-medium\" style=\"opacity: 1;\">By clicking send, you agree to our <a class=\"text-blue-600 underline cursor-pointer\" href=\"/privacy\" data-discover=\"true\">Privacy Policy</a>.</p>",
+    "textPieces": [
+      "By clicking send, you agree to our",
+      "Privacy Policy"
+    ],
+    "candidateFiles": [
+      "src\\Components\\Footer.jsx",
+      "src\\Components\\Header.jsx",
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\InvestorCharter.jsx",
+      "src\\pages\\PrivacyPolicy.jsx",
+      "src\\pages\\Refund.jsx"
+    ]
+  },
+  {
+    "count": 20,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/",
+      "highriseresearch.in/about",
+      "highriseresearch.in/services",
+      "highriseresearch.in/contact",
+      "highriseresearch.in/investor",
+      "highriseresearch.in/payment",
+      "highriseresearch.in/refund",
+      "highriseresearch.in/aml",
+      "highriseresearch.in/disclaimer",
+      "highriseresearch.in/complaints",
+      "highriseresearch.in/kyc",
+      "highriseresearch.in/privacy",
+      "highriseresearch.in/terms",
+      "highriseresearch.in/alerts",
+      "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+      "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+      "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+      "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+      "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ"
+    ],
+    "selector": ".font-semibold",
+    "code": "<p class=\"text-sm text-slate-500 font-semibold uppercase tracking-wider\">Research Analyst</p>",
+    "textPieces": [
+      "Research Analyst"
+    ],
+    "candidateFiles": [
+      "src\\Components\\Footer.jsx",
+      "src\\Components\\Header.jsx",
+      "src\\Components\\home\\About.jsx",
+      "src\\Components\\home\\StatsSection.jsx",
+      "src\\Components\\home\\TrustSection.jsx",
+      "src\\pages\\About.jsx",
+      "src\\pages\\Disclamer.jsx",
+      "src\\pages\\InvestorCharter.jsx",
+      "src\\pages\\PrivacyPolicy.jsx",
+      "src\\pages\\Refund.jsx",
+      "src\\pages\\Terms.jsx"
+    ]
+  },
+  {
+    "count": 20,
+    "pages": [
+      "highriseresearch.in",
+      "highriseresearch.in/",
+      "highriseresearch.in/about",
+      "highriseresearch.in/services",
+      "highriseresearch.in/contact",
+      "highriseresearch.in/investor",
+      "highriseresearch.in/payment",
+      "highriseresearch.in/refund",
+      "highriseresearch.in/aml",
+      "highriseresearch.in/disclaimer",
+      "highriseresearch.in/complaints",
+      "highriseresearch.in/kyc",
+      "highriseresearch.in/privacy",
+      "highriseresearch.in/terms",
+      "highriseresearch.in/alerts",
+      "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+      "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+      "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+      "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+      "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ"
+    ],
+    "selector": ".tracking-\\[0\\.1em\\] &gt; .text-slate-500",
+    "code": "<span class=\"text-slate-500\">Design by <a href=\"https://letskillify.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-500 hover:text-blue-400 transition-colors\">LetSkillify</a></span>",
+    "textPieces": [
+      "Design by",
+      "LetSkillify"
+    ],
+    "candidateFiles": [
+      "src\\Components\\Footer.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/about"
+    ],
+    "selector": ".text-blue-100",
+    "code": "<p class=\"text-blue-100 font-medium\">Market Experience</p>",
+    "textPieces": [
+      "Market Experience"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\StatsSection.jsx",
+      "src\\pages\\About.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(1) &gt; .mb-2",
+    "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Call Us</h4>",
+    "textPieces": [
+      "Call Us"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(2) &gt; .mb-2",
+    "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Email Us</h4>",
+    "textPieces": [
+      "Email Us"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(3) &gt; .mb-2",
+    "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Location</h4>",
+    "textPieces": [
+      "Location"
+    ],
+    "candidateFiles": [
+      "src\\App.jsx",
+      "src\\Components\\BackToTop.jsx",
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".p-6.rounded-3xl.border-slate-100:nth-child(4) &gt; .mb-2",
+    "code": "<h4 class=\"text-sm font-black uppercase tracking-widest text-slate-400 mb-2\">Market Hours</h4>",
+    "textPieces": [
+      "Market Hours"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".mt-1.text-xs.text-slate-400",
+    "code": "<p class=\"font-bold text-slate-400 text-xs mt-1\">Closed on Exchange Holidays</p>",
+    "textPieces": [
+      "Closed on Exchange Holidays"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".space-y-2:nth-child(1) &gt; label",
+    "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Full Name</label>",
+    "textPieces": [
+      "Full Name"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\Components\\PopupForm.jsx",
+      "src\\pages\\AdminSignUp.jsx",
+      "src\\pages\\Contact.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".md\\:grid-cols-2 &gt; .space-y-2:nth-child(2) &gt; label",
+    "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Phone Number</label>",
+    "textPieces": [
+      "Phone Number"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\Contact.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": "form &gt; .space-y-2:nth-child(2) &gt; label",
+    "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Email Address</label>",
+    "textPieces": [
+      "Email Address"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\AdminSignIn.jsx",
+      "src\\pages\\AdminSignUp.jsx",
+      "src\\pages\\Alerts.jsx",
+      "src\\pages\\Contact.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/contact"
+    ],
+    "selector": ".space-y-2:nth-child(3) &gt; label",
+    "code": "<label class=\"text-xs uppercase tracking-widest text-slate-400 font-black\">Message</label>",
+    "textPieces": [
+      "Message"
+    ],
+    "candidateFiles": [
+      "src\\Components\\Header.jsx",
+      "src\\Components\\home\\Contact.jsx",
+      "src\\Components\\PopupForm.jsx",
+      "src\\Components\\WhatsAppButton.jsx",
+      "src\\pages\\Admin.jsx",
+      "src\\pages\\Alerts.jsx",
+      "src\\pages\\Contact.jsx",
+      "src\\pages\\InvestorCharter.jsx",
+      "src\\pages\\PrivacyPolicy.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/investor"
+    ],
+    "selector": ".md\\:flex-row.justify-between.sm\\:px-6 &gt; p",
+    "code": "<p>© 2026 HighRise Research. All Rights Reserved.</p>",
+    "textPieces": [
+      "© 2026 HighRise Research. All Rights Reserved."
+    ],
+    "candidateFiles": [
+      "src\\pages\\Disclamer.jsx",
+      "src\\pages\\InvestorCharter.jsx",
+      "src\\pages\\Refund.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/investor"
+    ],
+    "selector": ".transition.hover\\:text-white[href=&quot;#&quot;]:nth-child(1)",
+    "code": "<a href=\"#\" class=\"hover:text-white transition\">Privacy Policy</a>",
+    "textPieces": [
+      "Privacy Policy"
+    ],
+    "candidateFiles": [
+      "src\\Components\\Footer.jsx",
+      "src\\Components\\Header.jsx",
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\InvestorCharter.jsx",
+      "src\\pages\\PrivacyPolicy.jsx",
+      "src\\pages\\Refund.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/investor"
+    ],
+    "selector": ".transition.hover\\:text-white[href=&quot;#&quot;]:nth-child(2)",
+    "code": "<a href=\"#\" class=\"hover:text-white transition\">Terms of Service</a>",
+    "textPieces": [
+      "Terms of Service"
+    ],
+    "candidateFiles": [
+      "src\\pages\\InvestorCharter.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/investor"
+    ],
+    "selector": ".transition.hover\\:text-white[href=&quot;#&quot;]:nth-child(3)",
+    "code": "<a href=\"#\" class=\"hover:text-white transition\">SEBI Registration</a>",
+    "textPieces": [
+      "SEBI Registration"
+    ],
+    "candidateFiles": [
+      "src\\Components\\Footer.jsx",
+      "src\\Components\\home\\TrustSection.jsx",
+      "src\\pages\\Alerts.jsx",
+      "src\\pages\\Disclamer.jsx",
+      "src\\pages\\InvestorCharter.jsx",
+      "src\\pages\\PrivacyPolicy.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/payment"
+    ],
+    "selector": ".bg-emerald-500",
+    "code": "<a href=\"https://wa.me/919098693674\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"px-8 py-3 bg-emerald-500 text-white font-bold rounded-xl hover:bg-emerald-600 transition-colors shadow-lg shadow-emerald-500/20\">WhatsApp Support</a>",
+    "textPieces": [
+      "WhatsApp Support"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Payment.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/refund"
+    ],
+    "selector": ".border-slate-50",
+    "code": "<div class=\"p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium\">Detailed terms are mapped out in the general Terms & Conditions document.</div>",
+    "textPieces": [
+      "Detailed terms are mapped out in the general Terms & Conditions document."
+    ],
+    "candidateFiles": [
+      "src\\pages\\Refund.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/refund"
+    ],
+    "selector": ".text-slate-400.tracking-widest.uppercase",
+    "code": "<p class=\"text-slate-400 font-bold uppercase tracking-widest\">Trust & Transparency</p>",
+    "textPieces": [
+      "Trust & Transparency"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Refund.jsx"
+    ]
+  },
+  {
+    "count": 2,
+    "pages": [
+      "highriseresearch.in/aml",
+      "highriseresearch.in/disclaimer"
+    ],
+    "selector": ".text-slate-400.tracking-widest.uppercase",
+    "code": "<p class=\"text-slate-400 font-bold uppercase tracking-widest\">Compliance First</p>",
+    "textPieces": [
+      "Compliance First"
+    ],
+    "candidateFiles": [
+      "src\\pages\\AmlPolicy.jsx",
+      "src\\pages\\Disclamer.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/disclaimer"
+    ],
+    "selector": ".mt-4",
+    "code": "<p class=\"mt-4 text-sm font-bold text-slate-400\">REGISTERED OFFICE: A-172 Kanak Avenue Colony, lasudiya Mori Indore</p>",
+    "textPieces": [
+      "REGISTERED OFFICE: A-172 Kanak Avenue Colony, lasudiya Mori Indore"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Disclamer.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/disclaimer"
+    ],
+    "selector": ".mb-2.text-slate-400.font-black",
+    "code": "<p class=\"text-sm uppercase font-black text-slate-400 tracking-widest mb-2\">Regulatory Authority</p>",
+    "textPieces": [
+      "Regulatory Authority"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Disclamer.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/complaints"
+    ],
+    "selector": "section:nth-child(1) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+    "code": "<p class=\"text-slate-500 font-medium\">Data for the month ending March 2026</p>",
+    "textPieces": [
+      "Data for the month ending March 2026"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Complaints.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/complaints"
+    ],
+    "selector": "section:nth-child(2) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+    "code": "<p class=\"text-slate-500 font-medium\">Detailed breakdown of complaint handling throughout 2025</p>",
+    "textPieces": [
+      "Detailed breakdown of complaint handling throughout 2025"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Complaints.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/complaints"
+    ],
+    "selector": "section:nth-child(3) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+    "code": "<p class=\"text-slate-500 font-medium\">Complaints received and resolved annually</p>",
+    "textPieces": [
+      "Complaints received and resolved annually"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Complaints.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/complaints"
+    ],
+    "selector": "section:nth-child(4) &gt; .mb-10.gap-4.items-center &gt; div:nth-child(2) &gt; .font-medium.text-slate-500",
+    "code": "<p class=\"text-slate-500 font-medium\">Status of regulatory audits over the financial years</p>",
+    "textPieces": [
+      "Status of regulatory audits over the financial years"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Complaints.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-2:nth-child(1) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Full Name (As Per PAN Card) *</label>",
+    "textPieces": [
+      "Full Name (As Per PAN Card) *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".md\\:grid-cols-2.gap-8.grid:nth-child(1) &gt; .space-y-2:nth-child(2) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Father's Name *</label>",
+    "textPieces": [
+      "Father's Name *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-2:nth-child(3) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Mobile Number *</label>",
+    "textPieces": [
+      "Mobile Number *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-2:nth-child(4) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Email Address *</label>",
+    "textPieces": [
+      "Email Address *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-2:nth-child(5) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Date of Birth *</label>",
+    "textPieces": [
+      "Date of Birth *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-2:nth-child(6) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">PAN Card Number *</label>",
+    "textPieces": [
+      "PAN Card Number *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": "form &gt; .space-y-2 &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Address (As Per Aadhar Card) *</label>",
+    "textPieces": [
+      "Address (As Per Aadhar Card) *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-3:nth-child(1) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">PAN Card Upload *</label>",
+    "textPieces": [
+      "PAN Card Upload *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": "label[for=&quot;pan-upload&quot;] &gt; .gap-2.flex-col.items-center &gt; .text-\\[10px\\].text-slate-400",
+    "code": "<span class=\"text-[10px] font-bold text-slate-400 uppercase\">Upload PAN</span>",
+    "textPieces": [
+      "Upload PAN"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-3:nth-child(2) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Aadhar Front *</label>",
+    "textPieces": [
+      "Aadhar Front *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": "label[for=&quot;aadhar-front&quot;] &gt; .gap-2.flex-col.items-center &gt; .text-\\[10px\\].text-slate-400",
+    "code": "<span class=\"text-[10px] font-bold text-slate-400 uppercase\">Aadhar Front</span>",
+    "textPieces": [
+      "Aadhar Front"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Admin.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".space-y-3:nth-child(3) &gt; .text-\\[11px\\].ml-1",
+    "code": "<label class=\"text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1\">Aadhar Back *</label>",
+    "textPieces": [
+      "Aadhar Back *"
+    ],
+    "candidateFiles": [
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": "label[for=&quot;aadhar-back&quot;] &gt; .gap-2.flex-col.items-center &gt; .text-\\[10px\\].text-slate-400",
+    "code": "<span class=\"text-[10px] font-bold text-slate-400 uppercase\">Aadhar Back</span>",
+    "textPieces": [
+      "Aadhar Back"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Admin.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/kyc"
+    ],
+    "selector": ".mt-12",
+    "code": "<p class=\"text-center mt-12 text-[10px] text-slate-400 font-black uppercase tracking-[0.4em] flex items-center justify-center gap-2\">",
+    "textPieces": [],
+    "candidateFiles": []
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/privacy"
+    ],
+    "selector": ".border-slate-50",
+    "code": "<div class=\"p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium flex items-center gap-2\">",
+    "textPieces": [],
+    "candidateFiles": []
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/privacy"
+    ],
+    "selector": ".text-slate-400.uppercase",
+    "code": "<p class=\"text-slate-400 font-bold uppercase\">SEBI Registration Research Analyst</p>",
+    "textPieces": [
+      "SEBI Registration Research Analyst"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\TrustSection.jsx",
+      "src\\pages\\InvestorCharter.jsx",
+      "src\\pages\\PrivacyPolicy.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/alerts"
+    ],
+    "selector": ".bg-\\[\\#0f172a\\]\\/50.backdrop-blur-xl.rounded-\\[2\\.5rem\\]:nth-child(1) &gt; .font-medium.leading-relaxed.text-slate-500",
+    "code": "<p class=\"text-slate-500 text-sm leading-relaxed font-medium\">Our service delivery is strictly via SMS only. HighRise Research does not use WhatsApp, Telegram, or any other social media platforms for service delivery or research tips.</p>",
+    "textPieces": [
+      "Our service delivery is strictly via SMS only. HighRise Research does not use WhatsApp, Telegram, or any other social media platforms for service delivery or research tips."
+    ],
+    "candidateFiles": [
+      "src\\pages\\Alerts.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/alerts"
+    ],
+    "selector": ".bg-\\[\\#0f172a\\]\\/50.backdrop-blur-xl.rounded-\\[2\\.5rem\\]:nth-child(2) &gt; .font-medium.leading-relaxed.text-slate-500",
+    "code": "<p class=\"text-slate-500 text-sm leading-relaxed font-medium\">Always verify our SEBI Registration details (INH000009427) directly on the SEBI official website before entering into any transaction.</p>",
+    "textPieces": [
+      "Always verify our SEBI Registration details (INH000009427) directly on the SEBI official website before entering into any transaction."
+    ],
+    "candidateFiles": [
+      "src\\pages\\Alerts.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/alerts"
+    ],
+    "selector": ".bg-\\[\\#0f172a\\]\\/50.backdrop-blur-xl.rounded-\\[2\\.5rem\\]:nth-child(3) &gt; .font-medium.leading-relaxed.text-slate-500",
+    "code": "<p class=\"text-slate-500 text-sm leading-relaxed font-medium\">We never authorize any individual to collect payments in their personal bank accounts. All transactions must be made only through our official company channels.</p>",
+    "textPieces": [
+      "We never authorize any individual to collect payments in their personal bank accounts. All transactions must be made only through our official company channels."
+    ],
+    "candidateFiles": [
+      "src\\pages\\Alerts.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/alerts"
+    ],
+    "selector": ".p-6.border-white\\/10.bg-white\\/5:nth-child(1) &gt; .tracking-widest.text-slate-500.font-black",
+    "code": "<p class=\"text-sm font-black text-slate-500 uppercase tracking-widest\">Phone Support</p>",
+    "textPieces": [
+      "Phone Support"
+    ],
+    "candidateFiles": [
+      "src\\pages\\Alerts.jsx"
+    ]
+  },
+  {
+    "count": 1,
+    "pages": [
+      "highriseresearch.in/alerts"
+    ],
+    "selector": ".p-6.border-white\\/10.bg-white\\/5:nth-child(2) &gt; .tracking-widest.text-slate-500.font-black",
+    "code": "<p class=\"text-sm font-black text-slate-500 uppercase tracking-widest\">Email Address</p>",
+    "textPieces": [
+      "Email Address"
+    ],
+    "candidateFiles": [
+      "src\\Components\\home\\Contact.jsx",
+      "src\\pages\\AdminSignIn.jsx",
+      "src\\pages\\AdminSignUp.jsx",
+      "src\\pages\\Alerts.jsx",
+      "src\\pages\\Contact.jsx",
+      "src\\pages\\KYC.jsx"
+    ]
+  },
+  {
+    "count": 5,
+    "pages": [
+      "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+      "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+      "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+      "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+      "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ"
+    ],
+    "selector": ".text-\\[10px\\].tracking-widest.font-black",
+    "code": "<span class=\"text-[10px] font-black uppercase tracking-widest\">Secure Activation</span>",
+    "textPieces": [
+      "Secure Activation"
+    ],
+    "candidateFiles": [
+      "src\\pages\\ServiceDetail.jsx"
+    ]
+  },
+  {
+    "count": 4,
+    "pages": [
+      "highriseresearch.in/services/lSUPlQjlVxVomaksjLZb",
+      "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+      "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+      "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7"
+    ],
+    "selector": ".tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+    "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Next Service</p>",
+    "textPieces": [
+      "Next Service"
+    ],
+    "candidateFiles": [
+      "src\\pages\\ServiceDetail.jsx"
+    ]
+  },
+  {
+    "count": 4,
+    "pages": [
+      "highriseresearch.in/services/mHnTt9XsOhVSKXy3Vfa5",
+      "highriseresearch.in/services/Dyr6mhzVyAkXFQ7QTClq",
+      "highriseresearch.in/services/5UL2Hjz6mAXcWhWgCuc7",
+      "highriseresearch.in/services/o7Z5BPQppAIM2aBhfpWJ"
+    ],
+    "selector": ".text-left &gt; .tracking-\\[0\\.2em\\].text-\\[10px\\].mb-1",
+    "code": "<p class=\"text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-1\">Previous Service</p>",
+    "textPieces": [
+      "Previous Service"
+    ],
+    "candidateFiles": [
+      "src\\pages\\ServiceDetail.jsx"
+    ]
+  }
+]

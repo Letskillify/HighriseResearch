@@ -22,7 +22,7 @@ const RefundPolicy = () => {
   };
 
   return (
-    <div className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
+    <main id="main-content" className="bg-[#F8FAFC] min-h-screen font-sans antialiased text-slate-900 pb-20">
       
       {/* 1. HERO SECTION */}
       <PageHero 
@@ -74,7 +74,7 @@ const RefundPolicy = () => {
                   All sales are final. Before proceeding with any active subscriptions, please ensure that our listed products and services perfectly meet your investment needs.
                 </p>
               </div>
-              <div className="p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-400 font-medium">
+              <div className="p-4 bg-[#F8FAFC] border border-slate-50 rounded-xl text-sm text-slate-600 font-medium">
                 Detailed terms are mapped out in the general Terms & Conditions document.
               </div>
             </motion.div>
@@ -151,17 +151,7 @@ const RefundPolicy = () => {
       </section>
 
 
-      {/* 3. SUB FOOTER */}
-      <footer className="py-10 bg-white border-t border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium text-slate-500">
-          <p>© 2026 HighRise Research. All Rights Reserved.</p>
-          <div className="flex gap-6">
-            <p className="text-slate-400 font-bold uppercase tracking-widest">Trust & Transparency</p>
-          </div>
-        </div>
-      </footer>
-
-    </div>
+    </main>
   );
 };
 
