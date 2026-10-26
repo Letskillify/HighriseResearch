@@ -117,34 +117,57 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center bg-slate-100/60 p-1.5 rounded-full border border-slate-200/60 backdrop-blur-md">
             {navLinks.map((link) => (
               link.name === 'Research' ? (
-                <motion.div
+                <div
                   key={link.name}
                   className="relative"
-                  onHoverStart={() => setIsServicesHovered(true)}
-                  onHoverEnd={() => setIsServicesHovered(false)}
+                  onMouseEnter={() => setIsServicesHovered(true)}
+                  onMouseLeave={() => setIsServicesHovered(false)}
+                  onBlur={(e) => {
+                    if (!e.currentTarget.contains(e.relatedTarget)) setIsServicesHovered(false);
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') setIsServicesHovered(false);
+                  }}
                 >
-                  <Link
-                    to={link.href}
-                    className="relative flex items-center gap-1 px-5 py-2 text-sm font-bold text-slate-600 hover:text-blue-600 transition-colors duration-300 group/link"
+                  <button
+                    type="button"
+                    onClick={() => setIsServicesHovered(prev => !prev)}
+                    onFocus={() => setIsServicesHovered(true)}
+                    aria-expanded={isServicesHovered}
+                    aria-haspopup="true"
+                    aria-label="Research services menu"
+                    className="relative flex items-center gap-1 px-5 py-2 text-sm font-bold text-slate-600 hover:text-blue-600 focus-visible:text-blue-600 transition-colors duration-300 group/link rounded-full outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 cursor-pointer"
                   >
                     <span className="relative z-10">{link.name}</span>
-                    <ChevronDown size={16} className="transition-transform duration-300 group-hover/link:rotate-180" />
+                    <ChevronDown size={16} className={`transition-transform duration-300 relative z-10 ${isServicesHovered ? 'rotate-180' : ''}`} />
                     <div className="absolute inset-0 bg-white rounded-full opacity-0 scale-90 group-hover/link:opacity-100 group-hover/link:scale-100 transition-all duration-300 shadow-sm border border-slate-100/50" />
-                  </Link>
+                  </button>
                   <AnimatePresence>
                     {isServicesHovered && (
                       <motion.div
+                        role="menu"
+                        aria-label="Research services"
                         initial={{ opacity: 0, y: 10, scale: 0.95 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 10, scale: 0.95 }}
                         transition={{ duration: 0.2, ease: "easeOut" }}
-                        className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white rounded-2xl shadow-xl border border-slate-100 p-2"
+                        className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white rounded-2xl shadow-xl border border-slate-100 p-2 z-50"
                       >
+                        <Link
+                          to="/services"
+                          role="menuitem"
+                          onClick={() => setIsServicesHovered(false)}
+                          className="block px-4 py-2.5 text-sm font-black text-blue-600 hover:bg-blue-50 focus-visible:bg-blue-50 focus-visible:outline-none rounded-lg transition-colors border-b border-slate-100 mb-1"
+                        >
+                          View All Services →
+                        </Link>
                         {services.map(service => (
                           <Link
                             key={service.id}
                             to={`/services/${service.id}`}
-                            className="block px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-100 hover:text-blue-600 rounded-lg transition-colors"
+                            role="menuitem"
+                            onClick={() => setIsServicesHovered(false)}
+                            className="block px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-100 hover:text-blue-600 focus-visible:bg-slate-100 focus-visible:text-blue-600 focus-visible:outline-none rounded-lg transition-colors"
                           >
                             {service.title}
                           </Link>
@@ -152,33 +175,51 @@ const Navbar = () => {
                       </motion.div>
                     )}
                   </AnimatePresence>
-                </motion.div>
+                </div>
               ) : link.name === 'More' ? (
-                <motion.div
+                <div
                   key={link.name}
                   className="relative"
-                  onHoverStart={() => setIsPoliciesHovered(true)}
-                  onHoverEnd={() => setIsPoliciesHovered(false)}
+                  onMouseEnter={() => setIsPoliciesHovered(true)}
+                  onMouseLeave={() => setIsPoliciesHovered(false)}
+                  onBlur={(e) => {
+                    if (!e.currentTarget.contains(e.relatedTarget)) setIsPoliciesHovered(false);
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') setIsPoliciesHovered(false);
+                  }}
                 >
-                  <div className="relative flex items-center gap-1 px-5 py-2 text-sm font-bold text-slate-600 hover:text-blue-600 transition-colors duration-300 group/link cursor-pointer">
+                  <button
+                    type="button"
+                    onClick={() => setIsPoliciesHovered(prev => !prev)}
+                    onFocus={() => setIsPoliciesHovered(true)}
+                    aria-expanded={isPoliciesHovered}
+                    aria-haspopup="true"
+                    aria-label="More legal policies and compliance links"
+                    className="relative flex items-center gap-1 px-5 py-2 text-sm font-bold text-slate-600 hover:text-blue-600 focus-visible:text-blue-600 transition-colors duration-300 group/link rounded-full outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 cursor-pointer"
+                  >
                     <span className="relative z-10">{link.name}</span>
-                    <ChevronDown size={16} className="transition-transform duration-300 group-hover/link:rotate-180" />
+                    <ChevronDown size={16} className={`transition-transform duration-300 relative z-10 ${isPoliciesHovered ? 'rotate-180' : ''}`} />
                     <div className="absolute inset-0 bg-white rounded-full opacity-0 scale-90 group-hover/link:opacity-100 group-hover/link:scale-100 transition-all duration-300 shadow-sm border border-slate-100/50" />
-                  </div>
+                  </button>
                   <AnimatePresence>
                     {isPoliciesHovered && (
                       <motion.div
+                        role="menu"
+                        aria-label="Legal policies"
                         initial={{ opacity: 0, y: 10, scale: 0.95 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 10, scale: 0.95 }}
                         transition={{ duration: 0.2, ease: "easeOut" }}
-                        className="absolute top-full right-0 mt-2 w-56 bg-white rounded-2xl shadow-xl border border-slate-100 p-2"
+                        className="absolute top-full right-0 mt-2 w-56 bg-white rounded-2xl shadow-xl border border-slate-100 p-2 z-50"
                       >
                         {policyLinks.map(policy => (
                           <Link
                             key={policy.name}
                             to={policy.href}
-                            className="block px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-100 hover:text-blue-600 rounded-lg transition-colors"
+                            role="menuitem"
+                            onClick={() => setIsPoliciesHovered(false)}
+                            className="block px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-100 hover:text-blue-600 focus-visible:bg-slate-100 focus-visible:text-blue-600 focus-visible:outline-none rounded-lg transition-colors"
                           >
                             {policy.name}
                           </Link>
@@ -186,7 +227,7 @@ const Navbar = () => {
                       </motion.div>
                     )}
                   </AnimatePresence>
-                </motion.div>
+                </div>
               ) : (
                 <Link
                   key={link.name}

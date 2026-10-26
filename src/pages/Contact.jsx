@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PageHero from '../Components/PageHero';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Phone, MapPin, Mail, MessageSquare, Clock, ShieldCheck, Building2, Loader2, CheckCircle2 } from 'lucide-react';
+import { Phone, MapPin, Mail, MessageSquare, Clock, ShieldCheck, Building2, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { db } from '../Firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 
@@ -14,16 +14,19 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    if (errorMessage) setErrorMessage('');
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setErrorMessage('');
     if (!formData.fullName || !formData.phone || !formData.email || !formData.message) {
-      alert("Please fill all fields.");
+      setErrorMessage("Please fill in all required fields.");
       return;
     }
 
@@ -47,7 +50,7 @@ const Contact = () => {
       }, 1000);
     } catch (error) {
       console.error("Error submitting contact form: ", error);
-      alert("Something went wrong. Please try again.");
+      setErrorMessage("Something went wrong while submitting. Please check your internet connection and try again.");
     } finally {
       setLoading(false);
     }
@@ -192,10 +195,17 @@ const Contact = () => {
                 ></textarea>
               </div>
 
+              {errorMessage && (
+                <div role="alert" aria-live="assertive" className="p-4 bg-red-50 border border-red-200 rounded-2xl flex items-center gap-3 text-red-700 font-bold text-sm">
+                  <AlertCircle size={18} className="text-red-600 shrink-0" />
+                  <span>{errorMessage}</span>
+                </div>
+              )}
+
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-slate-900 text-white font-black py-5 rounded-2xl hover:bg-blue-600 transition-all shadow-xl shadow-slate-900/10 active:scale-[0.98] flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
+                className="w-full bg-slate-900 text-white font-black py-5 rounded-2xl hover:bg-blue-600 transition-all shadow-xl shadow-slate-900/10 active:scale-[0.98] flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
               >
                 {loading ? (
                   <Loader2 className="animate-spin" />
@@ -207,12 +217,14 @@ const Contact = () => {
               <AnimatePresence>
                 {success && (
                   <motion.div
+                    role="status"
+                    aria-live="polite"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="p-4 bg-emerald-50 border border-emerald-100 rounded-2xl flex items-center justify-center gap-3 text-emerald-700 font-bold text-sm text-center"
+                    className="p-4 bg-emerald-50 border border-emerald-200 rounded-2xl flex items-center justify-center gap-3 text-emerald-800 font-bold text-sm text-center"
                   >
-                    <CheckCircle2 size={18} /> Message sent! We'll contact you soon.
+                    <CheckCircle2 size={18} className="text-emerald-600 shrink-0" /> Message sent successfully! Redirecting to WhatsApp...
                   </motion.div>
                 )}
               </AnimatePresence>

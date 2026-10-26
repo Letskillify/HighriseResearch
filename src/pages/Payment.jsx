@@ -24,7 +24,7 @@ const Payment = () => {
                     href="https://wa.me/919098693674" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="px-8 py-3 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition-colors shadow-lg shadow-emerald-600/20"
+                    className="px-8 py-3 bg-emerald-700 text-white font-bold rounded-xl hover:bg-emerald-800 transition-colors shadow-lg shadow-emerald-700/20"
                 >
                     WhatsApp Support
                 </a>

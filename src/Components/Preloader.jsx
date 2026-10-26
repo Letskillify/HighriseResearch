@@ -33,6 +33,7 @@ const StockPreloader = () => {
     <AnimatePresence>
       {isVisible && (
         <motion.div
+          key="stock-preloader-main"
           exit={{ opacity: 0, scale: 1.05 }}
           className="fixed inset-0 z-[250] flex items-center justify-center bg-[#05070a] overflow-hidden"
         >

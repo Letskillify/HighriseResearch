@@ -76,7 +76,7 @@ const Hero = () => {
         >
           {/* Replace with your actual stock market video URL */}
           <source
-            src="videos/stock.mp4"
+            src="/videos/stock.mp4"
             type="video/mp4"
           />
         </video>

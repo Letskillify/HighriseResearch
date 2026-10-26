@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, MessageSquare, Globe, Loader2, CheckCircle2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, MessageSquare, Globe, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { db } from '../../Firebase';
@@ -15,16 +15,19 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    if (errorMessage) setErrorMessage('');
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setErrorMessage('');
     if (!formData.fullName || !formData.email || !formData.phone || !formData.message) {
-      alert("Please fill all fields.");
+      setErrorMessage("Please fill all required fields before submitting.");
       return;
     }
 
@@ -48,7 +51,7 @@ const Contact = () => {
       }, 1000);
     } catch (error) {
       console.error("Error submitting homepage contact form: ", error);
-      alert("Something went wrong. Please try again.");
+      setErrorMessage("Something went wrong while submitting. Please check your internet connection and try again.");
     } finally {
       setLoading(false);
     }
@@ -261,10 +264,17 @@ const Contact = () => {
                   ></motion.textarea>
                 </motion.div>
 
+                {errorMessage && (
+                  <div role="alert" aria-live="assertive" className="p-4 bg-red-50 border border-red-200 rounded-2xl flex items-center gap-3 text-red-700 font-bold text-sm">
+                    <AlertCircle size={18} className="text-red-600 shrink-0" />
+                    <span>{errorMessage}</span>
+                  </div>
+                )}
+
                 <motion.button
                   type="submit"
                   disabled={loading}
-                  className="w-full py-5 bg-slate-900 text-white rounded-2xl font-black text-sm uppercase tracking-[0.2em] flex items-center justify-center gap-3 transition-all duration-300 group disabled:opacity-70 disabled:cursor-not-allowed"
+                  className="w-full py-5 bg-slate-900 text-white rounded-2xl font-black text-sm uppercase tracking-[0.2em] flex items-center justify-center gap-3 transition-all duration-300 group disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
                   whileHover={{ backgroundColor: '#2563eb', boxShadow: '0 25px 50px -12px rgba(37, 99, 235, 0.3)' }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -286,12 +296,14 @@ const Contact = () => {
                 <AnimatePresence>
                   {success && (
                     <motion.div 
+                      role="status"
+                      aria-live="polite"
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="p-4 bg-emerald-50 border border-emerald-100 rounded-2xl flex items-center justify-center gap-3 text-emerald-700 font-bold text-sm text-center"
+                      className="p-4 bg-emerald-50 border border-emerald-200 rounded-2xl flex items-center justify-center gap-3 text-emerald-800 font-bold text-sm text-center"
                     >
-                      <CheckCircle2 size={18} /> Inquiry sent! We'll get back to you soon.
+                      <CheckCircle2 size={18} className="text-emerald-600 shrink-0" /> Inquiry sent successfully! We'll get back to you soon.
                     </motion.div>
                   )}
                 </AnimatePresence>

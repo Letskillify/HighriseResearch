@@ -47,21 +47,25 @@ function App() {
 
   return (
     <>
-      {/* WCAG 2.4.1: Skip to content (Bypass Blocks) */}
+      {/* WCAG 2.4.1: Skip to main content (Bypass Blocks) */}
       <a
         href="#main-content"
         onClick={(e) => {
           e.preventDefault();
-          const target = document.getElementById("main-content");
+          const servicesEl = document.getElementById("services");
+          const mainEl = document.getElementById("main-content");
+          const target = (location.pathname === "/" && servicesEl) ? servicesEl : mainEl;
           if (target) {
             target.setAttribute("tabindex", "-1");
             target.focus({ preventScroll: false });
             target.scrollIntoView({ behavior: "smooth" });
+          } else {
+            window.location.href = "/services";
           }
         }}
         className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[99999] focus:px-5 focus:py-2.5 focus:bg-white focus:text-slate-900 focus:font-semibold focus:text-sm focus:rounded-md focus:border focus:border-slate-300 focus:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-all cursor-pointer"
       >
-        Skip to content
+        Skip to main content
       </a>
       {!isAdminPage && <Header />}
       {!isAdminPage && <WhatsAppButton />}

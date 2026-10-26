@@ -51,3 +51,20 @@
         scroll-behavior: auto !important;
     }
 }
+
+/* Accessibility: WCAG 2.4.7 Focus Visible & 1.4.11 Focus Ring Contrast */
+:focus-visible {
+    outline: 2px solid #2563eb !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25) !important;
+}
+
+/* High contrast focus ring on dark containers */
+.bg-\[\#020617\] :focus-visible,
+.bg-slate-900 :focus-visible,
+.bg-\[\#0f172a\] :focus-visible,
+.bg-slate-950 :focus-visible {
+    outline: 2px solid #93c5fd !important;
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.35) !important;
+}

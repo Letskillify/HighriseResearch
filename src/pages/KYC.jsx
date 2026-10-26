@@ -3,13 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { 
   User, Mail, Phone, MapPin, Calendar, 
   CreditCard, FileText, Upload, CheckCircle2, 
-  Loader2, ArrowRight, ShieldCheck, Lock 
+  Loader2, ArrowRight, ShieldCheck, Lock, AlertCircle 
 } from 'lucide-react';
 import PageHero from '../Components/PageHero';
 import { db } from '../Firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 
 const KYC = () => {
+  const [errorMessage, setErrorMessage] = useState('');
   const [formData, setFormData] = useState({
     fullName: '',
     fatherName: '',
@@ -97,7 +98,7 @@ const KYC = () => {
       setTimeout(() => setSuccess(false), 5000);
     } catch (error) {
       console.error("KYC submission error:", error);
-      alert("Submission failed. Please check your internet and try again.");
+      setErrorMessage("KYC Submission failed. Please check your internet connection or documents and try again.");
     } finally {
       setLoading(false);
     }
@@ -386,12 +387,19 @@ const KYC = () => {
             </div>
 
             <div className="pt-12">
+              {errorMessage && (
+                <div role="alert" aria-live="assertive" className="mb-6 p-5 bg-red-50 border border-red-200 rounded-[2rem] flex items-center gap-3 text-red-700 font-bold text-sm">
+                  <AlertCircle size={20} className="text-red-600 shrink-0" />
+                  <span>{errorMessage}</span>
+                </div>
+              )}
+
               <motion.button
                 type="submit"
                 disabled={loading}
                 whileHover={{ scale: 1.01, backgroundColor: '#1d4ed8' }}
                 whileTap={{ scale: 0.99 }}
-                className="w-full py-6 bg-blue-600 text-white rounded-[2rem] font-black text-sm uppercase tracking-[0.3em] flex items-center justify-center gap-4 shadow-xl shadow-blue-500/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed group"
+                className="w-full py-6 bg-blue-600 text-white rounded-[2rem] font-black text-sm uppercase tracking-[0.3em] flex items-center justify-center gap-4 shadow-xl shadow-blue-500/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed group cursor-pointer"
               >
                 {loading ? (
                   <Loader2 className="animate-spin" />
@@ -407,12 +415,14 @@ const KYC = () => {
               <AnimatePresence>
                 {success && (
                   <motion.div 
+                    role="status"
+                    aria-live="polite"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="mt-6 p-6 bg-emerald-50 border border-emerald-100 rounded-[2rem] flex items-center justify-center gap-3 text-emerald-700 font-bold"
+                    className="mt-6 p-6 bg-emerald-50 border border-emerald-200 rounded-[2rem] flex items-center justify-center gap-3 text-emerald-800 font-bold"
                   >
-                    <CheckCircle2 size={24} /> KYC & Agreement submitted successfully!
+                    <CheckCircle2 size={24} className="text-emerald-600 shrink-0" /> KYC & Agreement submitted successfully!
                   </motion.div>
                 )}
               </AnimatePresence>

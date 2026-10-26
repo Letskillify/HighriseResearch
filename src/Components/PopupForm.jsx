@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Phone, User, Mail, Send, Loader2 } from 'lucide-react';
 import { db } from '../Firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 
 const PopupForm = () => {
+    const location = useLocation();
     const [isOpen, setIsOpen] = useState(false);
     const [formData, setFormData] = useState({
         name: '',
@@ -13,11 +15,13 @@ const PopupForm = () => {
     });
     const [loading, setLoading] = useState(false);
 
+    const [error, setError] = useState('');
+
     useEffect(() => {
         // Show popup after 3 seconds ONLY on homepage
         const timer = setTimeout(() => {
             const hasSeenPopup = sessionStorage.getItem('hasSeenPopup');
-            const isHomePage = window.location.pathname === '/';
+            const isHomePage = location.pathname === '/';
             if (!hasSeenPopup && isHomePage) {
                 setIsOpen(true);
             }
@@ -31,15 +35,30 @@ const PopupForm = () => {
             clearTimeout(timer);
             window.removeEventListener('open-popup', handleManualOpen);
         };
-    }, []);
+    }, [location.pathname]);
+
+    // Accessibility: Close on Escape key press
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (e.key === 'Escape' && isOpen) {
+                closePopup();
+            }
+        };
+        if (isOpen) {
+            window.addEventListener('keydown', handleKeyDown);
+        }
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, [isOpen]);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData(prev => ({ ...prev, [name]: value }));
+        if (error) setError('');
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setError('');
         setLoading(true);
 
         try {
@@ -65,9 +84,9 @@ const PopupForm = () => {
                 setIsOpen(false);
                 setLoading(false);
             }, 800);
-        } catch (error) {
-            console.error("Error saving consultation: ", error);
-            alert("Something went wrong. Please try again.");
+        } catch (err) {
+            console.error("Error saving consultation: ", err);
+            setError("Something went wrong while submitting. Please try again or contact us directly.");
             setLoading(false);
         }
     };
@@ -80,7 +99,16 @@ const PopupForm = () => {
     return (
         <AnimatePresence>
             {isOpen && (
-                <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+                <div 
+                    className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
+                    role="region"
+                    aria-label="Consultation Dialog Container"
+                >
+                    {/* Screen reader announcement */}
+                    <div className="sr-only" role="status" aria-live="polite">
+                        Free consultation popup dialog opened. Press Escape to close.
+                    </div>
+
                     {/* Backdrop */}
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -88,10 +116,15 @@ const PopupForm = () => {
                         exit={{ opacity: 0 }}
                         onClick={closePopup}
                         className="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"
+                        aria-hidden="true"
                     />
 
-                    {/* Modal */}
+                    {/* Modal Dialog */}
                     <motion.div
+                        role="dialog"
+                        aria-modal="true"
+                        aria-labelledby="popup-consultation-title"
+                        aria-describedby="popup-consultation-desc"
                         initial={{ opacity: 0, scale: 0.9, y: 20 }}
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.9, y: 20 }}
@@ -99,20 +132,27 @@ const PopupForm = () => {
                     >
                         {/* Close Button */}
                         <button
+                            type="button"
                             onClick={closePopup}
-                            aria-label="Close consultation modal"
-                            className="absolute top-6 right-6 p-2 rounded-full hover:bg-slate-100 transition-colors z-10"
+                            aria-label="Close consultation modal dialog"
+                            className="absolute top-6 right-6 p-2 rounded-full hover:bg-slate-100 transition-colors z-10 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
                         >
                             <X size={20} className="text-slate-500" />
                         </button>
 
                         <div className="p-8 pt-12">
                             <div className="mb-8 text-center">
-                                <h3 className="text-3xl font-black text-slate-900 tracking-tight mb-2">
+                                <h3 id="popup-consultation-title" className="text-3xl font-black text-slate-900 tracking-tight mb-2">
                                     Get <span className="text-blue-600">Free</span> Consultation
                                 </h3>
-                                <p className="text-slate-600 font-medium">Leave your details and we'll reach out to you.</p>
+                                <p id="popup-consultation-desc" className="text-slate-600 font-medium">Leave your details and we'll reach out to you.</p>
                             </div>
+
+                            {error && (
+                                <div role="alert" className="mb-5 p-3.5 bg-red-50 border border-red-200 text-red-700 text-xs font-bold rounded-xl flex items-center gap-2">
+                                    <span>{error}</span>
+                                </div>
+                            )}
 
                             <form onSubmit={handleSubmit} className="space-y-5">
                                 <div className="space-y-1.5">

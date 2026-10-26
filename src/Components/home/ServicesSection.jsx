@@ -55,13 +55,22 @@ const ServiceCard = ({ service, index }) => {
 
   return (
     <motion.div
+      tabIndex={0}
+      role="button"
+      aria-label={`View details and strategy for ${service.title}`}
       onMouseMove={handleMouseMove}
       onClick={() => navigate(`/services/${service.id}`)}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          navigate(`/services/${service.id}`);
+        }
+      }}
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: index * 0.1, ease: [0.21, 0.47, 0.32, 0.98] }}
       viewport={{ once: true }}
-      className="group relative flex flex-col justify-between overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white p-8 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10 cursor-pointer"
+      className="group relative flex flex-col justify-between overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white p-8 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10 cursor-pointer outline-none focus-visible:ring-4 focus-visible:ring-blue-600 focus-visible:ring-offset-2"
     >
       {/* Interactive Spotlight Background */}
       <motion.div

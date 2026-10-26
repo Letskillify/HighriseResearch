@@ -51,15 +51,16 @@ const Complaints = () => {
 
             <motion.div variants={itemVariants} className="overflow-x-auto rounded-[2rem] border border-slate-800 bg-[#0f172a]/50 backdrop-blur-xl shadow-2xl">
               <table className="w-full text-left border-collapse">
+                <caption className="sr-only">Data for the month ending complaints status</caption>
                 <thead>
                   <tr className="bg-slate-900/50">
-                    <th className={tableHeaderStyle}>Received From</th>
-                    <th className={tableHeaderStyle}>Pending (End of Month)</th>
-                    <th className={tableHeaderStyle}>Received</th>
-                    <th className={tableHeaderStyle}>Resolved*</th>
-                    <th className={tableHeaderStyle}>Total Pending</th>
-                    <th className={tableHeaderStyle}>Pending &gt; 3 Months</th>
-                    <th className={tableHeaderStyle}>Avg Resolution Time</th>
+                    <th scope="col" className={tableHeaderStyle}>Received From</th>
+                    <th scope="col" className={tableHeaderStyle}>Pending (End of Month)</th>
+                    <th scope="col" className={tableHeaderStyle}>Received</th>
+                    <th scope="col" className={tableHeaderStyle}>Resolved*</th>
+                    <th scope="col" className={tableHeaderStyle}>Total Pending</th>
+                    <th scope="col" className={tableHeaderStyle}>Pending &gt; 3 Months</th>
+                    <th scope="col" className={tableHeaderStyle}>Avg Resolution Time</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -69,7 +70,7 @@ const Complaints = () => {
                     { from: "Other Sources (If Any)", pending: "NIL", received: "NIL", resolved: "NIL", total: "NIL", over3: "NIL", avg: "NIL" },
                   ].map((row, idx) => (
                     <tr key={idx} className={tableRowStyle}>
-                      <td className={tableDataStyle}>{row.from}</td>
+                      <th scope="row" className={`${tableDataStyle} font-bold text-left`}>{row.from}</th>
                       <td className={tableDataStyle}>{row.pending}</td>
                       <td className={tableDataStyle}>{row.received}</td>
                       <td className={tableDataStyle}>{row.resolved}</td>
@@ -78,8 +79,10 @@ const Complaints = () => {
                       <td className={tableDataStyle}>{row.avg}</td>
                     </tr>
                   ))}
+                </tbody>
+                <tfoot>
                   <tr className="bg-slate-900/40">
-                    <td className="px-6 py-5 text-sm font-black text-white">Grand Total</td>
+                    <th scope="row" className="px-6 py-5 text-sm font-black text-white text-left">Grand Total</th>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
@@ -87,7 +90,7 @@ const Complaints = () => {
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                   </tr>
-                </tbody>
+                </tfoot>
               </table>
             </motion.div>
           </section>
@@ -106,14 +109,15 @@ const Complaints = () => {
 
             <motion.div variants={itemVariants} className="overflow-x-auto rounded-[2rem] border border-slate-800 bg-[#0f172a]/50 backdrop-blur-xl shadow-2xl">
               <table className="w-full text-left border-collapse">
+                <caption className="sr-only">Monthly trend of complaint disposal for 2025</caption>
                 <thead>
                   <tr className="bg-slate-900/50">
-                    <th className={tableHeaderStyle}>S.No</th>
-                    <th className={tableHeaderStyle}>Month</th>
-                    <th className={tableHeaderStyle}>Carried Forward</th>
-                    <th className={tableHeaderStyle}>Received</th>
-                    <th className={tableHeaderStyle}>Resolved*</th>
-                    <th className={tableHeaderStyle}>Pending#</th>
+                    <th scope="col" className={tableHeaderStyle}>S.No</th>
+                    <th scope="col" className={tableHeaderStyle}>Month</th>
+                    <th scope="col" className={tableHeaderStyle}>Carried Forward</th>
+                    <th scope="col" className={tableHeaderStyle}>Received</th>
+                    <th scope="col" className={tableHeaderStyle}>Resolved*</th>
+                    <th scope="col" className={tableHeaderStyle}>Pending#</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -131,7 +135,7 @@ const Complaints = () => {
                   ].map((row, idx) => (
                     <tr key={idx} className={tableRowStyle}>
                       <td className={tableDataStyle}>{idx + 1}</td>
-                      <td className={tableDataStyle}>{row.month}</td>
+                      <th scope="row" className={`${tableDataStyle} font-bold text-left`}>{row.month}</th>
                       <td className={tableDataStyle}>{row.cf}</td>
                       <td className={tableDataStyle}>{row.received}</td>
                       <td className={tableDataStyle}>{row.resolved}</td>
@@ -157,14 +161,15 @@ const Complaints = () => {
 
             <motion.div variants={itemVariants} className="overflow-x-auto rounded-[2rem] border border-slate-800 bg-[#0f172a]/50 backdrop-blur-xl shadow-2xl">
               <table className="w-full text-left border-collapse">
+                <caption className="sr-only">Yearly comparison of complaints received and resolved</caption>
                 <thead>
                   <tr className="bg-slate-900/50">
-                    <th className={tableHeaderStyle}>S.No</th>
-                    <th className={tableHeaderStyle}>Financial Year</th>
-                    <th className={tableHeaderStyle}>Carried Forward</th>
-                    <th className={tableHeaderStyle}>Received</th>
-                    <th className={tableHeaderStyle}>Resolved*</th>
-                    <th className={tableHeaderStyle}>Pending#</th>
+                    <th scope="col" className={tableHeaderStyle}>S.No</th>
+                    <th scope="col" className={tableHeaderStyle}>Financial Year</th>
+                    <th scope="col" className={tableHeaderStyle}>Carried Forward</th>
+                    <th scope="col" className={tableHeaderStyle}>Received</th>
+                    <th scope="col" className={tableHeaderStyle}>Resolved*</th>
+                    <th scope="col" className={tableHeaderStyle}>Pending#</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -176,21 +181,23 @@ const Complaints = () => {
                   ].map((row, idx) => (
                     <tr key={idx} className={tableRowStyle}>
                       <td className={tableDataStyle}>{idx + 1}</td>
-                      <td className={tableDataStyle}>{row.year}</td>
+                      <th scope="row" className={`${tableDataStyle} font-bold text-left`}>{row.year}</th>
                       <td className={tableDataStyle}>{row.cf}</td>
                       <td className={tableDataStyle}>{row.received}</td>
                       <td className={tableDataStyle}>{row.resolved}</td>
                       <td className={tableDataStyle}>{row.pending}</td>
                     </tr>
                   ))}
+                </tbody>
+                <tfoot>
                   <tr className="bg-slate-900/40">
-                    <td colSpan={2} className="px-6 py-5 text-sm font-black text-white text-center">Grand Total</td>
+                    <th scope="row" colSpan={2} className="px-6 py-5 text-sm font-black text-white text-center">Grand Total</th>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                     <td className="px-6 py-5 text-sm font-black text-white">NIL</td>
                   </tr>
-                </tbody>
+                </tfoot>
               </table>
             </motion.div>
           </section>
@@ -209,12 +216,13 @@ const Complaints = () => {
 
             <motion.div variants={itemVariants} className="overflow-x-auto rounded-[2rem] border border-slate-800 bg-[#0f172a]/50 backdrop-blur-xl shadow-2xl">
               <table className="w-full text-left border-collapse">
+                <caption className="sr-only">Annual regulatory compliance audit status</caption>
                 <thead>
                   <tr className="bg-slate-900/50">
-                    <th className={tableHeaderStyle}>S.No</th>
-                    <th className={tableHeaderStyle}>Financial Year</th>
-                    <th className={tableHeaderStyle}>Audit Status</th>
-                    <th className={tableHeaderStyle}>Remarks</th>
+                    <th scope="col" className={tableHeaderStyle}>S.No</th>
+                    <th scope="col" className={tableHeaderStyle}>Financial Year</th>
+                    <th scope="col" className={tableHeaderStyle}>Audit Status</th>
+                    <th scope="col" className={tableHeaderStyle}>Remarks</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -225,7 +233,7 @@ const Complaints = () => {
                   ].map((row, idx) => (
                     <tr key={idx} className={tableRowStyle}>
                       <td className={tableDataStyle}>{idx + 1}</td>
-                      <td className={tableDataStyle}>{row.year}</td>
+                      <th scope="row" className={`${tableDataStyle} font-bold text-left`}>{row.year}</th>
                       <td className={tableDataStyle}>
                         <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-sm font-black uppercase">
                           <CheckCircle size={12} /> {row.status}
