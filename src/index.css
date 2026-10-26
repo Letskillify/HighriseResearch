@@ -32,3 +32,22 @@
 .animate-pulse-slow {
     animation: pulse-slow 3s ease-in-out infinite;
 }
+
+/* Accessibility: WCAG 2.2.2 Pause/Stop Animations */
+.animations-paused *,
+.animations-paused *::before,
+.animations-paused *::after {
+    animation-play-state: paused !important;
+    transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

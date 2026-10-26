@@ -1,8 +1,21 @@
+import { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Play, ArrowRight, ShieldCheck, BarChart3, Globe } from 'lucide-react';
+import { Play, Pause, ArrowRight, ShieldCheck, BarChart3, Globe } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useAnimation } from '../../context/AnimationContext';
 
 const Hero = () => {
+  const { isPaused, toggleAnimation } = useAnimation();
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (!videoRef.current) return;
+    if (isPaused) {
+      videoRef.current.pause();
+    } else {
+      videoRef.current.play().catch(() => {});
+    }
+  }, [isPaused]);
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -54,6 +67,7 @@ const Hero = () => {
       {/* 1. Background Video with Overlay */}
       <div className="absolute inset-0 z-0">
         <video
+          ref={videoRef}
           autoPlay
           loop
           muted
@@ -251,6 +265,28 @@ const Hero = () => {
 
         </div>
       </div>
+
+      {/* WCAG 2.2.2 Pause/Play Hero Background Video & Animations Toggle */}
+      <button
+        type="button"
+        onClick={toggleAnimation}
+        className="absolute bottom-6 right-6 z-20 flex items-center gap-2 px-3.5 py-2 text-xs font-semibold text-white bg-slate-900/85 hover:bg-slate-900 border border-white/20 rounded-lg shadow-lg backdrop-blur-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+        title={isPaused ? "Play background video and animations" : "Pause background video and animations"}
+        aria-label={isPaused ? "Play background video and animations" : "Pause background video and animations"}
+        aria-pressed={isPaused}
+      >
+        {isPaused ? (
+          <>
+            <Play size={13} className="fill-white" />
+            <span>Play animation</span>
+          </>
+        ) : (
+          <>
+            <Pause size={13} className="fill-white" />
+            <span>Pause animation</span>
+          </>
+        )}
+      </button>
     </section>
   );
 };

@@ -47,11 +47,21 @@ function App() {
 
   return (
     <>
+      {/* WCAG 2.4.1: Skip to content (Bypass Blocks) */}
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:px-6 focus:py-3 focus:bg-blue-600 focus:text-white focus:rounded-xl focus:shadow-2xl focus:font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all"
+        onClick={(e) => {
+          e.preventDefault();
+          const target = document.getElementById("main-content");
+          if (target) {
+            target.setAttribute("tabindex", "-1");
+            target.focus({ preventScroll: false });
+            target.scrollIntoView({ behavior: "smooth" });
+          }
+        }}
+        className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[99999] focus:px-5 focus:py-2.5 focus:bg-white focus:text-slate-900 focus:font-semibold focus:text-sm focus:rounded-md focus:border focus:border-slate-300 focus:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 transition-all cursor-pointer"
       >
-        Skip to main content
+        Skip to content
       </a>
       {!isAdminPage && <Header />}
       {!isAdminPage && <WhatsAppButton />}

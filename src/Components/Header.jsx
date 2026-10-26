@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../Firebase';
-import { Menu, X, MessageCircle, ChevronRight, Zap, ShieldCheck, ShieldAlert, ChevronDown } from 'lucide-react';
+import { Menu, X, MessageCircle, ChevronRight, Zap, ShieldCheck, ShieldAlert, ChevronDown, Pause, Play } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useAnimation } from '../context/AnimationContext';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,6 +12,7 @@ const Navbar = () => {
   const [services, setServices] = useState([]);
   const [isServicesHovered, setIsServicesHovered] = useState(false);
   const [isPoliciesHovered, setIsPoliciesHovered] = useState(false);
+  const { isPaused, toggleAnimation } = useAnimation();
 
   const navLinks = [
     { name: 'Home', href: '/' },
@@ -200,7 +202,35 @@ const Navbar = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex items-center gap-2 md:gap-4">
+          <div className="flex items-center gap-2 md:gap-3">
+            {/* WCAG 2.2.2: Pause/Play animations toggle */}
+            <motion.button
+              type="button"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={toggleAnimation}
+              className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold rounded-full transition-all border shadow-sm cursor-pointer ${
+                isPaused
+                  ? 'bg-amber-50 text-amber-900 border-amber-300 hover:bg-amber-100'
+                  : 'bg-slate-100/90 text-slate-700 border-slate-200 hover:bg-slate-200'
+              }`}
+              title={isPaused ? "Play animations" : "Pause animations"}
+              aria-label={isPaused ? "Play animations" : "Pause animations"}
+              aria-pressed={isPaused}
+            >
+              {isPaused ? (
+                <>
+                  <Play size={13} className="fill-amber-700 text-amber-700" />
+                  <span className="hidden sm:inline">Play animation</span>
+                </>
+              ) : (
+                <>
+                  <Pause size={13} className="fill-slate-700 text-slate-700" />
+                  <span className="hidden sm:inline">Pause animation</span>
+                </>
+              )}
+            </motion.button>
+
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -297,7 +327,21 @@ const Navbar = () => {
                   </motion.div>
                 ))}
 
-                <motion.div variants={mobileItemVariants} className="pt-4 mt-2 border-t border-slate-100 px-2 pb-2">
+                <motion.div variants={mobileItemVariants} className="pt-3 mt-2 border-t border-slate-100 px-2 flex flex-col gap-2">
+                  <button
+                    type="button"
+                    onClick={toggleAnimation}
+                    className={`w-full flex items-center justify-center gap-2 py-3 text-sm font-bold rounded-2xl border transition-all ${
+                      isPaused
+                        ? 'bg-amber-50 text-amber-900 border-amber-300'
+                        : 'bg-slate-100 text-slate-700 border-slate-200'
+                    }`}
+                    aria-pressed={isPaused}
+                  >
+                    {isPaused ? <Play size={15} className="fill-current text-amber-700" /> : <Pause size={15} className="fill-current text-slate-700" />}
+                    <span>{isPaused ? "Play animations" : "Pause animations"}</span>
+                  </button>
+
                   <Link to="/contact" onClick={() => setIsOpen(false)} aria-label="Join Premium Access">
                     <button className="w-full flex items-center justify-center gap-2 py-4 bg-slate-900 text-white font-bold rounded-2xl shadow-xl shadow-slate-900/20 active:scale-[0.98] transition-all">
                       Join Premium Access
