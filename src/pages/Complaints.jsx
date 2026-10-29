@@ -1,7 +1,7 @@
 import React from 'react';
 import PageHero from '../Components/PageHero';
 import { motion } from 'framer-motion';
-import { FileText, Calendar, PieChart, CheckCircle, BarChart3, AlertCircle } from 'lucide-react';
+import { FileText, Calendar, PieChart, CheckCircle, BarChart3, AlertCircle, Download } from 'lucide-react';
 
 const Complaints = () => {
   const containerVariants = {
@@ -227,15 +227,32 @@ const Complaints = () => {
                 </thead>
                 <tbody>
                   {[
-                    { year: "FY 2022-23", status: "Done", remarks: "NA" },
-                    { year: "FY 2023-24", status: "Done", remarks: "NA" },
-                    { year: "FY 2024-25", status: "Done", remarks: "Download" },
+                    { year: "FY 2023-24", status: "N/A", remarks: "N/A" },
+                    { year: "FY 2024-25", status: "N/A", remarks: "N/A" },
+                    { 
+                      year: "FY 2025-26", 
+                      status: "Done", 
+                      remarks: (
+                        <a 
+                          href="/Audit Report 2025-26.pdf" 
+                          download="Audit Report 2025-26.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer" 
+                          className="inline-flex items-center gap-1.5 text-emerald-500 hover:text-emerald-400 font-bold underline transition-colors cursor-pointer"
+                        >
+                          <Download size={14} />
+                          Download
+                        </a>
+                      ) 
+                    },
                   ].map((row, idx) => (
                     <tr key={idx} className={tableRowStyle}>
                       <td className={tableDataStyle}>{idx + 1}</td>
                       <th scope="row" className={`${tableDataStyle} font-bold text-left`}>{row.year}</th>
                       <td className={tableDataStyle}>
-                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-sm font-black uppercase">
+                        <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-black uppercase ${
+                          row.status === "Done" ? "bg-emerald-500/10 text-emerald-400" : "bg-slate-800 text-slate-400"
+                        }`}>
                           <CheckCircle size={12} /> {row.status}
                         </span>
                       </td>
